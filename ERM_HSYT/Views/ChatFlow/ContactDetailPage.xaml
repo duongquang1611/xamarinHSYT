@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+	x:Class="ERM_HSYT.ContactDetailPage"
+             Title="TRANG CÁ NHÂN">
+    <ContentPage.Content>
+        <Grid
+			RowSpacing="0"
+			Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition
+					Height="150" />
+                <RowDefinition
+					Height="*" />
+                
+            </Grid.RowDefinitions>
+            
+            <!-- HEADER -->
+            <Grid
+				HeightRequest="150"
+				Grid.Row="0"
+				Padding="0"
+				ColumnSpacing="0"
+				RowSpacing="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition
+						Width="Auto" />
+                    <ColumnDefinition
+						Width="*" />
+                    <ColumnDefinition
+						Width="Auto" />
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                
+                <!-- BLURRED AVATAR BACKGROUND -->
+                <ffimageloading:CachedImage
+					Grid.Row="0"
+					Grid.ColumnSpan="3"
+					Grid.RowSpan="3"
+					FadeAnimationEnabled="false"
+					Source="{ Binding Avatar }"
+					Aspect="AspectFill"
+					DownsampleHeight="10"
+					ScaleX="1.2">
+                    <ffimageloading:CachedImage.Transformations>
+                        <fftransformations:BlurredTransformation
+							Radius="2" />
+                    </ffimageloading:CachedImage.Transformations>
+                </ffimageloading:CachedImage>
+            
+                <BoxView
+					Grid.ColumnSpan="3"
+					Grid.RowSpan="3"
+					BackgroundColor="Black"
+					Opacity="0.4" />
+                
+                <!-- AVATAR -->
+                <local:CircleCachedImage
+					Grid.RowSpan="2"
+					Source="{ Binding Avatar }"
+					HorizontalOptions="Start"
+					VerticalOptions="Center"
+					Margin="20,15,10,15" />
+                
+                <!-- NAME -->
+                <Label
+					Grid.Column="1"
+					Text="{ Binding Hoten}"
+					VerticalOptions="End"
+					Style="{ DynamicResource LabelBoldStyle }"
+					TextColor="{ DynamicResource OverImageTextColor }"
+					FontSize="18"
+					LineBreakMode="TailTruncation" />
+                
+                <!-- LOCATION ICON -->
+                <Label
+					Grid.Column="1"
+					Grid.Row="1"
+					Margin="0,4,0,0"
+					Text="{ x:Static local:GrialIconsFont.MapPin }"
+					TextColor="{ DynamicResource OverImageTextColor }"
+					FontFamily="{ StaticResource IconsFontFamily }" />
+                
+                <!-- LOCATION -->
+                <Label
+					Grid.Column="1"
+					Grid.Row="1"
+                    Grid.RowSpan="2"
+					Margin="26,2,0,0"
+					Text="{ Binding Diachi }"
+					TextColor="{ DynamicResource OverImageTextColor }"
+					FontSize="14"
+					LineBreakMode="WordWrap" />
+
+                <!-- EDIT BUTTON -->
+                <Button
+					Grid.Row="0"
+					Grid.Column="2"
+					Grid.RowSpan="2"
+					Text="{ grial:Translate Sửa }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					Style="{ DynamicResource OutlineInverseButtonStyle }"
+					HorizontalOptions="Start"
+					VerticalOptions="Center"
+					WidthRequest="60"
+					HeightRequest="34"
+					CornerRadius="17"
+					FontSize="12"
+					Margin="10,0,20,0"
+					BindingContext="{ Binding Contact }"
+					Clicked="OnEdit" />
+            </Grid>
+            
+            <!-- LIST -->
+            <ScrollView Grid.Row="1">
+                <ListView
+				ItemsSource="{ Binding Values }"
+				HasUnevenRows="true"
+				SelectionMode="None"
+				BackgroundColor="{ DynamicResource BasePageColor }"
+				CachingStrategy="RecycleElement"
+				Style="{ StaticResource ResponsiveLandscapeMarginStyle }">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <local:ContactDetailItemTemplate />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+            <!-- BUTTONS GRID BACKGROUND COLOR -->
+            <!--<BoxView
+				Grid.Row="2"
+				BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }" />
+            
+            --><!-- BUTTONS GRID --><!--
+            <Grid
+				Grid.Row="2"
+				Padding="20"
+				BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+						Height="Auto" />
+                    <RowDefinition
+						Height="Auto" />
+                </Grid.RowDefinitions>
+                
+
+                --><!-- MESSAGES --><!--
+                <Button
+					Grid.Row="0"
+					Grid.Column="0"
+					HorizontalOptions="Center"
+					Text="{ x:Static local:GrialIconsFont.MessageSquare }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					Style="{ StaticResource CircleActionButtonFlatStyle }"
+					BindingContext="{ Binding Contact }"
+					Clicked="OnMessage" />
+
+                --><!--Text--><!--
+                <Label
+					Grid.Row="1"
+					Grid.Column="0"
+					Text="{ grial:Translate StringMessage }"
+					FontSize="14"
+					TextColor="{ DynamicResource CircleActionButtonFlatTextColor }"
+					VerticalOptions="Center"
+					HorizontalOptions="Center" />
+                
+                --><!-- MOBILE --><!--
+                <Button
+					Grid.Row="0"
+					Grid.Column="1"
+					HorizontalOptions="Center"
+					Text="{ x:Static local:GrialIconsFont.Smartphone }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					Style="{ StaticResource CircleActionButtonFlatStyle }"
+					Clicked="OnMobile" />
+
+                --><!--Text--><!--
+                <Label
+					Grid.Row="1"
+					Grid.Column="1"
+					Text="{ grial:Translate StringMobile }"
+					FontSize="14"
+					TextColor="{ DynamicResource CircleActionButtonFlatTextColor }"
+					VerticalOptions="Center"
+					HorizontalOptions="Center" />
+
+                --><!-- HOME --><!--
+                <Button
+					Grid.Row="0"
+					Grid.Column="2"
+					HorizontalOptions="Center"
+					Text="{ x:Static local:GrialIconsFont.Phone }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					Style="{ StaticResource CircleActionButtonFlatStyle }"
+					Clicked="OnHome" />
+
+                --><!--Text--><!--
+                <Label
+					Grid.Row="1"
+					Grid.Column="2"
+					Text="{ grial:Translate StringHome }"
+					FontSize="14"
+					TextColor="{ DynamicResource CircleActionButtonFlatTextColor }"
+					VerticalOptions="Center"
+					HorizontalOptions="Center" />
+                
+                --><!-- EMAIL --><!--
+                <Button
+					Grid.Row="0"
+					Grid.Column="3"
+					HorizontalOptions="Center"
+					Text="{ x:Static local:GrialIconsFont.Mail }"
+					FontFamily="{ StaticResource IconsFontFamily }"
+					Style="{ StaticResource CircleActionButtonFlatStyle }"
+					Clicked="OnEmail" />
+
+                --><!--Text--><!--
+                <Label
+					Grid.Row="1"
+					Grid.Column="3"
+					Text="{ grial:Translate StringEmail }"
+					FontSize="14"
+					TextColor="{ DynamicResource CircleActionButtonFlatTextColor }"
+					VerticalOptions="Center"
+					HorizontalOptions="Center" />
+                
+            </Grid>-->
+            
+        </Grid>
+    </ContentPage.Content>
+    
+</ContentPage>

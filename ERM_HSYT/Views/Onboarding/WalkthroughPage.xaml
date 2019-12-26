@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local:WalkthroughBasePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ERM_HSYT.WalkthroughPage" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:local="clr-namespace:ERM_HSYT"
+	NavigationPage.HasNavigationBar="True"
+                           Title="TRẢI NGHIỆM HỒ SƠ ĐIỆN TỬ">
+
+    <local:WalkthroughStepItemTemplate
+		BackgroundColor="{ DynamicResource BasePageColor}"
+		Header="{ grial:Translate WalkthroughHeaderWelcome }"
+		Text="{ grial:Translate WalkthroughTextWelcome }"
+		
+		
+		ButtonBackgroundColor="#5F7DD4"
+		ButtonText="{ grial:Translate Tiếp }" />
+
+    <local:WalkthroughStepItemTemplate
+		BackgroundColor="{ DynamicResource BasePageColor}"
+		Header="{ grial:Translate WalkthroughHeaderSaveTime }"
+		Text="{ grial:Translate WalkthroughTextSaveTime }"
+		IconText="{ x:Static local:GrialIconsFont.Lightning }"
+		IconColor="#7C4ECD"
+		ButtonBackgroundColor="#7C4ECD"
+		ButtonText="{ grial:Translate Tiếp }" />
+    
+    <local:WalkthroughStepItemTemplate
+		BackgroundColor="{ DynamicResource BasePageColor}"
+		Header="{ grial:Translate WalkthroughHeaderLearn }"
+		Text="{ grial:Translate WalkthroughTextLearn }"
+		IconText="{ x:Static local:GrialIconsFont.School }"
+		IconColor="#E51E61"
+		ButtonBackgroundColor="#E51E61"
+		ButtonText="{ grial:Translate Kết Thúc }" />
+
+</local:WalkthroughBasePage>

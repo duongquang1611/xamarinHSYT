@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+             xmlns:local="clr-namespace:ERM_HSYT.CustomRenderers"
+             x:Class="ERM_HSYT.Views.CustomForm.WebViewPage"
+             Title="{grial:Translate TitlePhieuKhamChiDinh}">
+    <ContentPage.Content>
+        <Grid Margin="20,20,20,50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <local:CustomWebView Grid.Row="0" x:Name="Wbp" ></local:CustomWebView>
+            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Button Clicked="ZoomIn_Clicked" WidthRequest="40" ImageSource="plusWebview.png" BackgroundColor="White"/>
+                <Label WidthRequest="1"/>
+                <Button Clicked="ZoomOut_Clicked" WidthRequest="40" ImageSource="minusWebview.png" BackgroundColor="White"></Button>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

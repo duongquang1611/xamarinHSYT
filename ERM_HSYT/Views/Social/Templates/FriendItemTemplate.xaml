@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+	x:Class="ERM_HSYT.FriendItemTemplate">
+    
+    <Grid Padding="10" ColumnSpacing="15">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <!--<local:CircleCachedImage
+			Grid.Column="0"
+			Source="{ Binding Avatar }"
+			Style="{ StaticResource Avatar }" />-->
+        <Label
+			Grid.Column="0" Grid.Row="0"
+			Text="{ Binding STT }"
+			VerticalOptions="Center" />
+        <Label
+			Grid.Column="1" Grid.Row="0"
+			Text="{ Binding Ten }"
+			VerticalOptions="Start" />
+        <Label
+			Grid.Column="2" Grid.Row="0"
+			Text="{ Binding SoLuong }"
+			VerticalOptions="Center" />
+        <Label
+			Grid.Column="3" Grid.Row="0"
+			Text="{ Binding DonVi }"
+			VerticalOptions="Center" />
+        <Label Grid.Column="0" Grid.Row="1"></Label>
+        <Label
+			Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"
+			Text="{ Binding LieuDung }"
+			VerticalOptions="StartAndExpand" />
+
+    </Grid>
+    
+</ContentView>

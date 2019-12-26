@@ -1,0 +1,27 @@
+﻿{
+    "CustomActionSheet.xaml": {
+		"Title": "إجراءات الملف",
+		"Actions": [
+			{
+				"Icon": "\ue9f2",
+				"Label": "شارك"
+			},
+			{
+				"Icon": "\uea1c",
+				"Label": "رفع"
+			},
+			{
+				"Icon": "\ue94b",
+				"Label": "نسخ"
+			},
+			{
+				"Icon": "\ue9d5",
+				"Label": "طباعة"
+			},
+			{
+				"Icon": "\uea15",
+				"Label": "حذف"
+			}
+		]
+    }
+}

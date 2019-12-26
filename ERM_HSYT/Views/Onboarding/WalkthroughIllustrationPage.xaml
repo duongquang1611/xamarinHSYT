@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local:WalkthroughBasePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+	x:Class="ERM_HSYT.WalkthroughIllustrationPage"
+	NavigationPage.HasNavigationBar="False">
+    
+    <local:WalkthroughIllustrationStepTemplate
+		StepBackgroundImage="https://s3-us-west-2.amazonaws.com/grial-images/v3.0/walkthrough_illustration_01.png"
+		Header="{ grial:Translate WalkthroughHeaderWelcome }"
+		Text="{ grial:Translate WalkthroughTextWelcome }"
+		ButtonText="{ grial:Translate StringNext }" />
+    
+    <local:WalkthroughIllustrationStepTemplate
+		StepBackgroundImage="https://s3-us-west-2.amazonaws.com/grial-images/v3.0/walkthrough_illustration_02.png"
+		Header="{ grial:Translate WalkthroughHeaderSaveTime }"
+		Text="{ grial:Translate WalkthroughTextSaveTime }"
+		ButtonText="{ grial:Translate StringNext }" />
+    
+    <local:WalkthroughIllustrationStepTemplate
+		StepBackgroundImage="https://s3-us-west-2.amazonaws.com/grial-images/v3.0/walkthrough_illustration_03.png"
+		Header="{ grial:Translate WalkthroughHeaderLearn }"
+		Text="{ grial:Translate WalkthroughTextLearn }"
+		ButtonText="{ grial:Translate StringFinish }" />
+    
+</local:WalkthroughBasePage>

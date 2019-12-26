@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="ERM_HSYT.Views.DatLichHen"
+             Title="ĐẶT LỊCH HẸN">
+
+
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView>
+                <!--Entry-->
+                <Grid RowSpacing="0"
+                      Padding="20"
+                      grial:Effects.ApplyIOSSafeAreaAsPadding="Left,Right">
+
+                    <!-- THEME OVERVIEW -->
+
+
+                    <StackLayout
+                        
+                        Spacing="20"
+                        HorizontalOptions="FillAndExpand">
+
+                        <Label Text="Ngày"></Label>
+                        <DatePicker x:Name="datePicker" Date ="{Binding date, Mode=TwoWay, StringFormat='dd/MM/yyyy'}"  MinimumDate="{Binding MinDate}"></DatePicker>
+                        <Label Text="Giờ"></Label> 
+                        <TimePicker x:Name="timePicker" Time="{Binding time, Mode=TwoWay}"></TimePicker>
+                        <Label Text="Khoa/Phòng"></Label>
+                        <Picker Title="Chọn Khoa Phòng" x:Name="khoaPhongPicker" ItemsSource="{Binding DsTenKhoaPhong }" SelectedItem="{Binding khoaPhong, Mode=TwoWay}">
+                            <!--<Picker.Items>
+                                <x:String>Khoa Nhi</x:String>
+                                <x:String>Khoa Sản</x:String>
+                                <x:String>Khoa Ngoại</x:String>
+                            </Picker.Items>-->
+                        </Picker>
+                        <!--<Label Text="Bác Sỹ"></Label>
+                        <Picker Title="Chọn bác sỹ" x:Name="bacSiPicker">
+                            <Picker.Items>
+                                <x:String>Nguyễn Văn AAA</x:String>
+                                <x:String>Nguyễn Văn AAAAAA</x:String>
+                                <x:String>Nguyễn Văn AAAA</x:String>
+                            </Picker.Items>
+                        </Picker>-->
+
+                        <Label Text="Ghi Chú" ></Label>
+                        <Editor x:Name="ghiChuEditor" Text="{Binding ghiChu , Mode=TwoWay}"
+									grial:EditorProperties.Placeholder="Nhập nội dung ..." />
+
+                        <StackLayout
+                            Padding="20"
+                            Spacing="20"
+                            grial:Effects.ApplyIOSSafeAreaAsPadding="Left,Right" >
+
+                            <Grid
+								ColumnSpacing="10"
+								HorizontalOptions="FillAndExpand">
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition
+										Width="*" />
+                                    <ColumnDefinition
+										Width="*" />
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Cancel -->
+                                <Button
+									Grid.Column="0"
+									Text="Huỷ"
+									HorizontalOptions="FillAndExpand"
+                                    Clicked="HuyButton"
+									Style="{ StaticResource DeleteButtonStyle }" />
+                                <!-- Ok -->
+                                <Button
+									Grid.Column="1"
+                                    Command="{Binding PostCommand}"
+									Text="Đặt lịch"
+									HorizontalOptions="FillAndExpand"
+									Style="{ StaticResource SaveButtonStyle }" />
+                            </Grid>
+                            <!--Clicked="ThemLichHenButton"-->
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+
+                </Grid>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

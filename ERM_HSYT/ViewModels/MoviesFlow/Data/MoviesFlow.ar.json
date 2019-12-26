@@ -1,0 +1,1205 @@
+﻿{
+    "FeaturedMovies": {
+        "$id": "featured-movies",
+        "Movies": [
+            {
+                "$id": "featured-movie-1",
+                "Name": "Ant-Man and the Wasp",
+                "Director": "Peyton Reed",
+                "Year": "August 2018",
+                "PosterImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_1_poster_image.jpg",
+                "BackgroundImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_1_background_image.jpg",
+                "Color": "#c22c2d",
+                "Overview": "As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside the Wasp to uncover secrets from their past.",
+                "TrailerVideo": "https://www.youtube.com/watch?v=D86RtevtfrA",
+                "Rating": 80,
+                "RatingLabel": "8.0",
+                "BackdropImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_1_backdrop_image.jpg",
+                "Genres": [
+                    "ACTION",
+                    "ADVENTURE",
+                    "FANTASY",
+                    "COMEDY"
+                ],
+                "Crew": [
+                    {
+                        "Name": "Gabriel Ferrari",
+                        "Role": "Screenplay"
+                    },
+                    {
+                        "Name": "Erik Sommers",
+                        "Role": "Screenplay"
+                    },
+                    {
+                        "Name": "Chris McKenna",
+                        "Role": "Screenplay"
+                    },
+                    {
+                        "Name": "Andrew Barrer",
+                        "Role": "Screenplay"
+                    },
+                    {
+                        "Name": "Peyton Reed",
+                        "Role": "Director"
+                    },
+                    {
+                        "Name": "Paul Rudd",
+                        "Role": "Screenplay"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "Name": "Paul Rudd",
+                        "Character": "Scott Lang / Ant-Man",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/8eTtJ7XVXY0BnEeUaSiTAraTIXd.jpg"
+                    },
+                    {
+                        "Name": "Michael Peña",
+                        "Character": "Luis",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/oqlIKSglghuX7kSTalODn71nlOd.jpg"
+                    },
+                    {
+                        "Name": "Evangeline Lilly",
+                        "Character": "Hope van Dyne / The Wasp",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/h8Lerr3D362n1jZvywtbvUzgBIN.jpg"
+                    },
+                    {
+                        "Name": "Walton Goggins",
+                        "Character": "Sonny Burch",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/gA5nf2alzIPPjs1MSjS1PmrCedJ.jpg"
+                    },
+                    {
+                        "Name": "Bobby Cannavale",
+                        "Character": "Jim Paxton",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/o3xnmePoOUCw7sjoZ4xM4W5DL26.jpg"
+                    }
+                ],
+                "Pictures": [
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/lj3RxOteLC9GLWKRMqWwRuMXYkF.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/aoiARgqEjh54ym5KRgV8CkWmXUc.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/xjFgtltOOuBtLdNedQH8M1TTrjc.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/94msMeoXTpvUIMp0f3lDZrY7nFX.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/xYiqc17z3IvpRrjMYxJorxRqbw4.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/1bgvn5apd1El9oahgxEif6YHIg1.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/jclTUIWfgsu4oOzr7fwwKUFQOgl.jpg"
+                ]
+            },
+            {
+                "$id": "featured-movie-2",
+                "Name": "Wonder Woman",
+                "Director": "Patty Jenkins",
+                "Year": "May 2017",
+                "PosterImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_2_poster_image.jpg",
+                "BackgroundImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_2_background_image.jpg",
+                "TrailerVideo": "https://www.youtube.com/watch?v=INLzqh7rZ-U",
+                "Color": "#bb6300",
+                "Overview": "An Amazon princess comes to the world of Man in the grips of the First World War to confront the forces of evil and bring an end to human conflict.",
+                "Rating": 72,
+                "RatingLabel": "7.2",
+                "BackdropImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_2_backdrop_image.jpg",
+                "Genres": [
+                    "ACTION",
+                    "ADVENTURE",
+                    "FANTASY",
+                    "WAR",
+                    "SCIENCE FICTION"
+                ],
+                "Crew": [
+                    {
+                        "Name": "Allan Heinberg",
+                        "Role": "Screenplay, Story"
+                    },
+                    {
+                        "Name": "Geoff Johns",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Jason Fuchs",
+                        "Role": "Story"
+                    },
+                    {
+                        "Name": "Zack Snyder",
+                        "Role": "Story"
+                    },
+                    {
+                        "Name": "Patty Jenkins",
+                        "Role": "Director"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "Name": "Gal Gadot",
+                        "Character": "Diana Prince / Wonder Woman",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/hzt1aV8FzEJlUtiWtrGSHlcdGCx.jpg"
+                    },
+                    {
+                        "Name": "Chris Pine",
+                        "Character": "Steve Trevor",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/vSe6sIsdtcoqBhuWRXynahFg8Vf.jpg"
+                    },
+                    {
+                        "Name": "Robin Wright",
+                        "Character": "Antiope",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/tXfQTgcIEPP7gtVdJ44ZxZPhacn.jpg"
+                    },
+                    {
+                        "Name": "Connie Nielsen",
+                        "Character": "Hippolyta",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/lvQypTfeH2Gn2PTbzq6XkT2PLmn.jpg"
+                    },
+                    {
+                        "Name": "Danny Huston",
+                        "Character": "Erich Ludendorff",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/jc1eGtCShQ2ZkzqWApiWbA1lbTF.jpg"
+                    }
+                ],
+                "Pictures": [
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/v51eUcRsKD1xBrDPEeD4D2fXYwh.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/jz2DY4QuAnnYK3Gsm2h9b0mND7s.jpg",
+                    "https://image.tmdb.org/t/p/w1066_and_h600_bestv2/zr9AFBByEYPZk4krrSSHIc22nJR.jpg",
+                    "https://image.tmdb.org/t/p/w1066_and_h600_bestv2/9tuQAYHLA9G02Th6eiV5hq7mpbj.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/dx8f6XZUP6JVT8ljCzSmkxUq433.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/9shl41OxQSPM5KA20hnz2PmMGZ9.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/eF1oi474qPVJROPlSy5zyKKUwDE.jpg"
+                ]
+            },
+            {
+                "$id": "featured-movie-3",
+                "Name": "Spider-Man: Homecoming",
+                "Director": "Jon Watts",
+                "Year": "June 2017",
+                "PosterImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_3_poster_image.jpg",
+                "BackgroundImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_3_background_image.jpg",
+                "Color": "#1d4f66",
+                "TrailerVideo": "https://www.youtube.com/watch?v=xrzXIaTt99U",
+                "Overview": "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, with fighting crime as his superhero alter ego Spider-Man as a new threat, the Vulture, emerges.",
+                "Rating": 63,
+                "RatingLabel": "6.3",
+                "BackdropImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_3_backdrop_image.jpg",
+                "Genres": [
+                    "new york",
+                    "high school",
+                    "superhero",
+                    "comics",
+                    "teenager",
+                    "reboot"
+                ],
+                "Crew": [
+                    {
+                        "Name": "Jon Watts",
+                        "Role": "Director, Writer"
+                    },
+                    {
+                        "Name": "Erik Sommers",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Chris McKenna",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Jonathan M. Goldstein",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Christopher D. Ford",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Steve Ditko",
+                        "Role": "Characters"
+                    },
+                    {
+                        "Name": "John Francis Daley",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Stan Lee",
+                        "Role": "Characters"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "Name": "Tom Holland",
+                        "Character": "Peter Parker / Spider-Man",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/dO9FYcPPShhiYQ9D50Takd2W8xo.jpg"
+                    },
+                    {
+                        "Name": "Michael Keaton",
+                        "Character": "Adrian Toomes / Vulture",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/myVdrYNGTgqunLfUSaM8DuVD7DL.jpg"
+                    },
+                    {
+                        "Name": "Jon Favreau",
+                        "Character": "Harold Happy Hogan",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/sJSGJwGa3hjMlJNUCxF7wQwo7fb.jpg"
+                    },
+                    {
+                        "Name": "Zendaya",
+                        "Character": "Michelle 'MJ' Jones",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/6WPolY7Wd3GMiuN1dPxYZX7liik.jpg"
+                    },
+                    {
+                        "Name": "Donald Glover",
+                        "Character": "Aaron Davis",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/36o5mpbQVdxOf9kUxWw7SllOuk.jpg"
+                    }
+                ],
+                "Pictures": [
+                    "https://image.tmdb.org/t/p/w1066_and_h600_bestv2/lAsr1ytUq0ATWdCbcjf59pupPFy.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/9iFpsmj1jvdq7DYdRCCZQmldo74.jpg",
+                    "https://image.tmdb.org/t/p/w1066_and_h600_bestv2/24GSBmRoQlX7tnHvH5BTPq2eMVQ.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/tPpYGm2mVecue7Bk3gNVoSPA5qn.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/yIu8j6Iwwn8sP4jTzcx7XnsNbEZ.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/yHIONS8qyPCDxepahbz472nisTC.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/nexiA2QxBmn0PU0jMs3x0rDv4lE.jpg"
+                ]
+            },
+            {
+                "$id": "featured-movie-4",
+                "Name": "Thor: Ragnarok",
+                "Director": "Taika Waititi",
+                "Year": "October 2017",
+                "PosterImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_4_poster_image.jpg",
+                "BackgroundImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_4_background_image.jpg",
+                "Color": "#306C2D",
+                "Overview": "Thor is on the other side of the universe and finds himself in a race against time to get back to Asgard to stop Ragnarok, the prophecy of destruction to his homeworld and the end of Asgardian civilization, at the hands of the ruthless Hela.",
+                "TrailerVideo": "https://www.youtube.com/watch?v=ue80QwXMRHg",
+                "Rating": 75,
+                "RatingLabel": "7.5",
+                "BackdropImage": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/featured_movie_4_backdrop_image.jpg",
+                "Genres": [
+                    "action",
+                    "adventure",
+                    "superhero",
+                    "comic",
+                    "femail villain"
+                ],
+                "Crew": [
+                    {
+                        "Name": "Taika Waititi",
+                        "Role": "Director"
+                    },
+                    {
+                        "Name": "Eric Pearson",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Christopher Yost",
+                        "Role": "Writer"
+                    },
+                    {
+                        "Name": "Stephany Folsom",
+                        "Role": "Story"
+                    },
+                    {
+                        "Name": "Craig Kyle",
+                        "Role": "Writer"
+                    }
+                ],
+                "Cast": [
+                    {
+                        "Name": "Chris Hemsworth",
+                        "Character": "Thor Odinson",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/lrhth7yK9p3vy6p7AabDUM1THKl.jpg"
+                    },
+                    {
+                        "Name": "Tom Hiddleston",
+                        "Character": "Loki",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/qB1lHPFBPIzw6I7EvsciZ5wyUNS.jpg"
+                    },
+                    {
+                        "Name": "Cate Blanchett",
+                        "Character": "Hela",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/eE98pTm0Q2xIn0710VBC603IE5Q.jpg"
+                    },
+                    {
+                        "Name": "Mark Ruffalo",
+                        "Character": "Bruce Banner / The Hulk",
+                        "Avatar": "https://image.tmdb.org/t/p/w276_and_h350_face/isQ747u0MU8U9gdsNlPngjABclH.jpg"
+                    }
+                ],
+                "Pictures": [
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/ge6MrYNCNFhrK0NI9bsuoeqiDrf.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/6nFtlT1iFj2n9icAtsj9LZeSWcB.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/6YozDnrA2fXdIbB5nWDFHtB5ZY6.jpg",
+                    "https://image.tmdb.org/t/p/w700_and_h392_bestv2/42ZVMjbbHPRAjEipty9E4HtSfHk.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/poNn1fyNwimsale1xgXL7cUGdg8.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/hzHOvXXlKDGRLZfvHp82lC9XvFK.jpg",
+                    "https://image.tmdb.org/t/p/w440_and_h660_bestv2/1WVQNvlgug2PIqYkYpurgN5iqMm.jpg"
+                ]
+            }
+        ]
+    },
+    "MoviesMainPage.xaml": {
+        "Sections": [
+            {
+                "$id": "movie-section-1",
+                "Title": "Actor of the Month",
+                "Movies": [
+                    {
+                        "$id": "movie-1",
+                        "Title": "Inception",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=66TuSJo4dZM",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/e8MyVAjISnQ8TCcOPQ0Pk2PTe46.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 4.4,
+                        "RatingMax": 5.0,
+                        "Director": "Christopher Nolan",
+                        "Plot": "يتم إعطاء اللص، الذي يسرق أسرار الشركات من خلال استخدام التكنولوجيا تقاسم الحلم مهمة عكسية من زرع فكرة في عقل الرئيس التنفيذي.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Joseph Gordon-Levitt",
+                            "Ellen Page"
+                        ],
+                        "Genres": [
+                            "ACTION",
+                            "THRILLER",
+                            "SCIENCE FICTION",
+                            "MYSTERY",
+                            "ADVENTURE"
+                        ]
+                    },
+                    {
+                        "$id": "movie-2",
+                        "Title": "جانغو متحرر",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=_iH0UBYDI4g",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/2lwQVuahsePfQbnXvj14Qy0QzA7.jpg",
+                        "Seasons": "2012",
+                        "RatingValue": 4.25,
+                        "RatingMax": 5.0,
+                        "Director": "Quentin Tarantino",
+                        "Plot": "جانغو الحر أو «جانغو المتحرر من القيود» (بالإنجليزية: Django Unchained)) هو فيلم غرب أمريكي من كتابة وإخراج كوينتن تارانتينو. الفيلم من بطولة جيمي فوكس وكريستوف والتز وليوناردو دي كابريو وصامويل ل. جاكسون وكيري واشنطن. صدر الفيلم في 25 ديسمبر 2012 في أمريكا الشمالية.",
+                        "Cast": [
+                            "Jamie Foxx",
+                            "Christoph Waltz",
+                            "Leonardo DiCaprio"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "WESTERN"
+                        ]
+                    },
+                    {
+                        "$id": "movie-3",
+                        "Title": "العائد",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=LoebZZ8K5N0",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/yCuTOperQ9UvEApq9WOFuxLfeZL.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "Alejandro G. Iñárritu",
+                        "Plot": "العائد (بالإنجليزية: The Revenant) هو فيلم ويسترن وإثارة أمريكي من إخراج أليخاندرو غونزاليز إيناريتو، تدور أحداثه في عام 1823 ومستوحاة من حياة صياد الفراء ساكن الحدود هيو غلاس. النص من كتابة مارك إل سميث وإيناريتو، ومقتبس جزئيا من رواية بنفس الاسم لمايكل بنك. الفيلم من بطولة ليوناردو دي كابريو وتوم هاردي وويل بولتر ودومينال غليسون.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Tom Hardy",
+                            "Will Poulter"
+                        ],
+                        "Genres": [
+                            "WESTERN",
+                            "DRAMA",
+                            "ADVENTURE",
+                            "THRILLER"
+                        ]
+                    },
+                    {
+                        "$id": "movie-4",
+                        "Title": "المغادرون",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=iojhqm0JTW4",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/2e1PIg1vyDF8w2dXfvNZm1KoR5S.jpg",
+                        "Seasons": "2006",
+                        "RatingValue": 4.25,
+                        "RatingMax": 5.0,
+                        "Director": "Martin Scorsese",
+                        "Plot": "المغادرون (بالإنجليزية: The Departed) هو فيلم جريمة وإثارة أمريكي صدر في 2006 من إخراج مارتن سكورسيزي وسيناريو وليام موناهان. الفيلم هو إعادة صنع للفيلم الذي أصدرته هونغ كونغ في 2002 ويحمل اسم \"شؤون جهنمية\" (Infernal Affairs). المغادرون من بطولة جاك نيكلسون وليوناردو دي كابريو ومات ديمون ومارك والبيرغ.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Matt Damon",
+                            "Jack Nicholson"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER",
+                            "CRIME"
+                        ]
+                    },
+                    {
+                        "$id": "movie-5",
+                        "Title": "تيتانيك",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=zCy5WQ9S4c0",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/ld3MtQf8UYX1unS7ufH2jrpwwOE.jpg",
+                        "Seasons": "1997",
+                        "RatingValue": 3.85,
+                        "RatingMax": 5.0,
+                        "Director": "James Cameron",
+                        "Plot": "تيتانيك (بالإنجليزية: Titanic) هو فيلم كوارث ملحمي رومانسي أمريكي من إخراج وكتابة وإنتاج جيمس كاميرون. يتناول الفيلم كارثة غرق السفينة آر إم إس تايتانك في أولى رحلاتها عبر المحيط الأطلسي، وهو من بطولة ليوناردو ديكابريو وكيت وينسليت، وهما شَخصَين من طبقات اجتماعية مختلفة وقعوا في الحب على متن الرحلة الأولى لتيتانيك عام 1912.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Kate Winslet",
+                            "Billy Zane"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "ROMANCE",
+                            "THRILLER"
+                        ]
+                    },
+                    {
+                        "$id": "movie-6",
+                        "Title": "تجربة الأداء",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=-_w1nkBu4xk",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/sdJQpbyBLPqHLdAcFs0PT9dJgbt.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 3.7,
+                        "RatingMax": 5.0,
+                        "Director": "Martin Scorsese",
+                        "Plot": "فيلم قصير يشجع افتتاح منتجع وكازينو ميلكو-كراون الذي يحمل عنوان الفيلم في ماكاو.",
+                        "Cast": [
+                            "Robert De Niro",
+                            "Leonardo DiCaprio",
+                            "Brad Pitt"
+                        ],
+                        "Genres": [
+                            "DRAMA"
+                        ]
+                    },
+                    {
+                        "$id": "movie-7",
+                        "Title": "غاتسبي العظيم",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=rARN6agiW7o",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/zQG4ZYn5NBfdzw25LphLkfruMto.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 3.65,
+                        "RatingMax": 5.0,
+                        "Director": "Baz Luhrmann",
+                        "Plot": "غاتسبي العظيم (بالإنجليزية: The Great Gatsby) هو فيلم درامي رومانسي مأخوذ عن رواية تحمل نفس الاسم للأديب الأمريكي فرنسيس سكوت فيتزجيرالد، والتي تدور حول حياة المليونير جاي غاتسبي وجاره نك كاراويه. الفيلم من إخراج وكتابة باز لورمان ومن بطولة ليوناردو دي كابريووتوبي ماغواير. تم اختيار الفيلم من أجل افتتاح مهرجان كان السينمائي لعام 2013.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Carey Mulligan",
+                            "Joel Edgerton"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "ROMANCE"
+                        ]
+                    },
+                    {
+                        "$id": "movie-8",
+                        "Title": "جزيرة شاتر",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=YDGldPitxic",
+                        "Source": "http://ia.media-imdb.com/images/M/MV5BMTMxMTIyNzMxMV5BMl5BanBnXkFtZTcwOTc4OTI3Mg@@._V1_UX128_CR0,0,128,190_AL_.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "Martin Scorsese",
+                        "Plot": "جزيرة شاتر (بالإنجليزية: Shutter Island) فيلم إثارة نفسية أمريكي صدر عام 2010 من إخراج مارتن سكورسيزي ومأخوذ عن رواية بنفس العنوان للكاتبة دينيس ليهان. الفيلم من بطولة ليوناردو دي كابريو الذي يلعب دور المحقق إدوارد \"تيدي\" دانيلز الذي يحقق في حادثة إختفاء أحد المرضى في مستشفى نفسي واقع في جزيرة شاتر، مارك رافالو يلعب دور مرافقه، و بن كينغسلي يلعب دور الطبيب النفسي الرئيسي في المستشفى، وميشيل ويليامز بدور زوجة دانيلز. تلقى الفيلم ملاحظات إيجابية من النقاد وحقق أرباحا تقدر 294 مليون دولار أمريكي من مبيعات شباك التذاكر.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Emily Mortimer",
+                            "Mark Ruffalo"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER",
+                            "mystery"
+                        ]
+                    },
+                    {
+                        "$id": "movie-9",
+                        "Title": "الألماس الدموي",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=yknIZsvQjG4",
+                        "Source": "https://image.tmdb.org/t/p/w1280/wRamTzV6udKaMXrspxqOuo02zk0.jpg",
+                        "Seasons": "2016",
+                        "RatingValue": 4.0,
+                        "RatingMax": 5.0,
+                        "Director": "Edward Zwick",
+                        "Plot": "الألماس الدموي (بالإنجليزية: Blood Diamond) هو فيلم إثارة وحرب سياسي صدر في 2006 من إخراج إدوارد زويك. وبطولة ليوناردو دي كابريو وجينيفر كونيلي ودجيمون هونسو.\nتلقى الفيلم مراجعات متوسطة، لكنه ترشح لنيل خمس جوائز أوسكار في مهرجان الأوسكار 2007.",
+                        "Cast": [
+                            "Leonardo DiCaprio",
+                            "Djimon Hounsou",
+                            "Jennifer Connelly"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER",
+                            "action"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "أحدث أفضل صورة",
+                "Movies": [
+                    {
+                        "Title": "سبوت لايت",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=EwdCIpbTN5g",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/7jOgrlQEDbkXyfZxkD0Ctd0P8jH.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "Tom McCarthy",
+                        "Plot": "القصة الحقيقية لكيفية كشف بوسطن غلوب عن فضيحة ضخمة من التحرش الطفل والتستر داخل أبرشية الكاثوليكية المحلية، وهز الكنيسة الكاثوليكية بأكملها إلى جوهرها.",
+                        "Cast": [
+                            "Mark Ruffalo",
+                            "Michael Keaton",
+                            "Rachel McAdams"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER",
+                            "history"
+                        ]
+                    },
+                    {
+                        "Title": "الرجل الطائر",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=uJfLoE6hanc",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/eOJUEs5cyMFrQuRPQI0glVOVgyo.jpg",
+                        "Seasons": "2014",
+                        "RatingValue": 3.9,
+                        "RatingMax": 5.0,
+                        "Director": "Alejandro G. Iñárritu",
+                        "Plot": "يتضح على التقدم المحرز في آخر مسرحية برودواي له، وهو النضال الممثل الشعبي السابق للتعامل مع حياته الحالية كممثل هدر يظهر.",
+                        "Cast": [
+                            "Alejandro G. Iñárritu",
+                            "Nicolás Giacobone"
+                        ],
+                        "Genres": [
+                            "DRAMA"
+                        ]
+                    },
+                    {
+                        "Title": "12 سنة عبد",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=z02Ie8wKKRg",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/pzKoaViF0xaXZJXKbOKOssic28Z.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "Steve McQueen",
+                        "Plot": "في الولايات المتحدة الأمريكية، يتم اختطاف سليمان نورثوب، رجل أسود حر من ولاية نيويورك في ولاية نيويورك، وبيعه إلى العبودية.",
+                        "Cast": [
+                            "Chiwetel Ejiofor",
+                            "Michael Kenneth Williams",
+                            "Michael Fassbender"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "comedy"
+                        ]
+                    },
+                    {
+                        "Title": "آرغو",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=JW3WfSFgrVY",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/l1jE0FCaVopNrwOkSCBdv58yTxb.jpg",
+                        "Seasons": "2012",
+                        "RatingValue": 3.85,
+                        "RatingMax": 5.0,
+                        "Director": "Ben Affleck",
+                        "Plot": "بدأ وكيل وكالة المخابرات المركزية العمل تحت ستار منتج هوليوود للكشف عن موقع الخيال العلمي، وهو عملية خطيرة لانقاذ ستة أمريكيين في طهران خلال أزمة الرهائن الأمريكية عام 1980 في إيران.",
+                        "Cast": [
+                            "Ben Affleck",
+                            "Bryan Cranston",
+                            "John Goodman"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER"
+                        ]
+                    },
+                    {
+                        "Title": "الفنان",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=YB9Oq0hn5KY",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/xHEmIqRydBg9HRUapQyTpkBBDxE.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 4.0,
+                        "RatingMax": 5.0,
+                        "Director": "Michel Hazanavicius",
+                        "Plot": "ويلتقي نجم سينمائي صامت راقصة شابة، ولكن وصول الصور الناطقة يرسل حياتهم المهنية في اتجاهين متعاكسين.",
+                        "Cast": [
+                            "Jean Dujardin",
+                            "Bérénice Bejo",
+                            "John Goodman"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "comedy",
+                            "action"
+                        ]
+                    },
+                    {
+                        "Title": "خطاب الملك",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=EcxBrTvLbBM",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/rxvdasU2XTdxNxbMOQMKTvi2MTF.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 4.0,
+                        "RatingMax": 5.0,
+                        "Director": "Tom Hooper",
+                        "Plot": "قصة الملك جورج السادس من المملكة المتحدة لبريطانيا العظمى وأيرلندا الشمالية، صعوده مرتجلة إلى العرش والمعالج الكلام الذي ساعد الملك غير متأكد تصبح جديرة بذلك.",
+                        "Cast": [
+                            "Colin Firth",
+                            "Geoffrey Rush",
+                            "Helena Bonham Carter"
+                        ],
+                        "Genres": [
+                            "documentary",
+                            "history"
+                        ]
+                    },
+                    {
+                        "Title": "خزانة الألم",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=AIbFvqFYRT4",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/eos3i5W5DtB61RCj5fJQcMvXF55.jpg",
+                        "Seasons": "2008",
+                        "RatingValue": 2.5,
+                        "RatingMax": 5.0,
+                        "Director": "Kathryn Bigelow",
+                        "Plot": "خلال حرب العراق، رقيب تم تعيينه مؤخرا إلى فرقة قنبلة الجيش هو على خلاف مع زملائه في الفرقة بسبب طريقه المنشق في التعامل مع عمله.",
+                        "Cast": [
+                            "Jeremy Renner",
+                            "Anthony Mackie",
+                            "Brian Geraghty",
+                            "Guy Pearce",
+                            "Sergeant Matt Thompson",
+                            "Ralph Fiennes"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "THRILLER",
+                            "war"
+                        ]
+                    },
+                    {
+                        "Title": "المليونير المتشرد",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=AIzbwV7on6Q",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/cuh3Lcwl6jWJY5eTSAIVODvl1d0.jpg",
+                        "Seasons": "2008",
+                        "RatingValue": 4.0,
+                        "RatingMax": 5.0,
+                        "Director": "Danny Boyle, Loveleen Tandan",
+                        "Plot": "مومبي مومباي يعكس على تنشئة له في الأحياء الفقيرة عندما اتهم الغش على النسخة الهندية من \"يريد أن يكون مليونيرا؟",
+                        "Cast": [
+                            "Dev Patel",
+                            "Freida Pinto",
+                            "Saurabh Shukla"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "romance"
+                        ]
+                    },
+                    {
+                        "Title": "لا بلد للعجائز",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=38A__WT3-o0",
+                        "Source": "https://image.tmdb.org/t/p/original/kVgZv4585OLGS8R1Or6tF1RY6hc.jpg",
+                        "Seasons": "2007",
+                        "RatingValue": 1.05,
+                        "RatingMax": 5.0,
+                        "Director": "Ethan Coen, Joel Coen",
+                        "Plot": "فالعنف والفوضى الناجمة عن تعثر صياد على صفقة مخدرة خاطئة وأكثر من مليوني دولار نقدا بالقرب من ريو غراندي.",
+                        "Cast": [
+                            "Tommy Lee Jones",
+                            "Javier Bardem",
+                            "Josh Brolin"
+                        ],
+                        "Genres": [
+                            "DRAMA",
+                            "crime",
+                            "thriller"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "الخيال العلمي العناوين الكلاسيكية",
+                "Movies": [
+                    {
+                        "Title": "بليد رانر",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=eogpIG53Cis",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/2ftEvXBESAYFJmJQAaB0QEWqSSa.jpg",
+                        "Seasons": "1982",
+                        "RatingValue": 4.1,
+                        "RatingMax": 5.0,
+                        "Director": "Ridley Scott",
+                        "Plot": "يجب على عداء شفرة متابعة ومحاولة لإنهاء الراسبين الأربعة الذين سرقوا سفينة في الفضاء وعاد إلى الأرض للعثور على خالقهم.",
+                        "Cast": [
+                            "Harrison Ford",
+                            "Rutger Hauer",
+                            "Sean Young"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "thriller"
+                        ]
+                    },
+                    {
+                        "Title": "العودة إلى المستقبل",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=qvsgGtivCgs",
+                        "Source": "https://images-na.ssl-images-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+                        "Seasons": "1985",
+                        "RatingValue": 4.25,
+                        "RatingMax": 5.0,
+                        "Director": "Robert Zemeckis",
+                        "Plot": "تم إرسال مارتي ماكفلي، وهو طالب في المدرسة الثانوية يبلغ من العمر 17 عاما، عن طريق الخطأ 30 عاما في الماضي في وقت السفر ديلوران اخترعها صديقه المقرب، عالم المنشق دوك براون.",
+                        "Cast": [
+                            "Michael J. Fox",
+                            "Christopher Lloyd",
+                            "Lea Thompson"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "COMEDY",
+                            "adventure"
+                        ]
+                    },
+                    {
+                        "Title": "العودة إلى المستقبل 2",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=MdENmefJRpw",
+                        "Source": "https://images-na.ssl-images-amazon.com/images/M/MV5BZTMxMGM5MjItNDJhNy00MWI2LWJlZWMtOWFhMjI5ZTQwMWM3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg",
+                        "Seasons": "1989",
+                        "RatingValue": 3.9,
+                        "RatingMax": 5.0,
+                        "Director": "Robert Zemeckis",
+                        "Plot": "بعد زيارة عام 2015، يجب على مارتي مكفلي تكرار زيارته لعام 1955 لمنع التغييرات الكارثية في عام 1985 ... دون التدخل في أول رحلة له.",
+                        "Cast": [
+                            "Michael J. Fox",
+                            "Christopher Lloyd",
+                            "Lea Thompson"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "adventure",
+                            "comedy",
+                            "family"
+                        ]
+                    },
+                    {
+                        "Title": "العودة إلى المستقبل 3",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=3C8c3EoEfw4",
+                        "Source": "https://images-na.ssl-images-amazon.com/images/M/MV5BYjhlMGYxNmMtOWFmMi00Y2M2LWE5NWYtZTdlMDRlMGEzMDA3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SY1000_CR0,0,676,1000_AL_.jpg",
+                        "Seasons": "1990",
+                        "RatingValue": 3.7,
+                        "RatingMax": 5.0,
+                        "Director": "Robert Zemeckis",
+                        "Plot": "التمتع بسلام وجود في عام 1885، الطبيب ايميت براون على وشك أن يقتل من قبل بوفورد \"جنون الكلب\" تانن. مارتي ماكفلي يسافر مرة أخرى في الوقت المناسب لإنقاذ صديقه.",
+                        "Cast": [
+                            "Michael J. Fox",
+                            "Christopher Lloyd",
+                            "Mary Steenburgen"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "adventure",
+                            "comedy",
+                            "family"
+                        ]
+                    },
+                    {
+                        "Title": "المبيد",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=k64P4l2Wmeg",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/mDeDcnWDS35f7VRQBato0fEEVFt.jpg",
+                        "Seasons": "1984",
+                        "RatingValue": 4.5,
+                        "RatingMax": 5.0,
+                        "Director": "James Cameron",
+                        "Plot": "سايبورغ غير قابلة للتدمير من 2029 إلى 1984 لاغتيال نادلة، الذي ولد ابنه الذي لم يولد بعد في حرب ضد الآلات، في حين سيتم إرسال جندي من تلك الحرب لحمايتها بأي ثمن.",
+                        "Cast": [
+                            "Arnold Schwarzenegger",
+                            "Linda Hamilton",
+                            "Michael Biehn"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller"
+                        ]
+                    },
+                    {
+                        "Title": "المبيد 2: يوم الحساب",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=-W8CegO_Ixw",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/mujzyTZ4yF4r5hqFQmIRBmfNgzL.jpg",
+                        "Seasons": "1991",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "James Cameron",
+                        "Plot": "يجب على سايبورغ، الذي يطابق الشخص الذي فشل في قتل سارة كونور، أن يحمي ابنها البالغ من العمر عشر سنوات، جون كونور، من سايبورغ أكثر تقدما.",
+                        "Cast": [
+                            "Arnold Schwarzenegger",
+                            "Linda Hamilton",
+                            "Michael Biehn"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "عناوين الخيال العلمي",
+                "Movies": [
+                    {
+                        "Title": "ماكس المجنون: طريق الغضب",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=hEJnMQG9ev8",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/eLnvZlxc7DvVUW3fsV9fCJH2QLm.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 4.05,
+                        "RatingMax": 5.0,
+                        "Director": "George Miller",
+                        "Plot": "امرأة متمردة ضد حاكم استبدادي في أستراليا بعد بوستابوكاليبتيك في البحث عن منزلها في بلادها بمساعدة مجموعة من السجينات، المصلين ذهانية، و دريفتر اسمه ماكس.",
+                        "Cast": [
+                            "Tom Hardy",
+                            "Charlize Theron",
+                            "Nicholas Hoult"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller",
+                            "adventure"
+                        ]
+                    },
+                    {
+                        "Title": "المريخي",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=ej3ioOneTy8",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/rtwM5uRiRifrC6IPYSHH0lQUDbH.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 4.0,
+                        "RatingMax": 5.0,
+                        "Director": "Ridley Scott",
+                        "Plot": "رائد الفضاء يصبح تقطعت بهم السبل على المريخ بعد أن يفترض فريقه ميتا، ويجب أن تعتمد على براعة له لإيجاد وسيلة للإشارة إلى الأرض أنه على قيد الحياة.",
+                        "Cast": [
+                            "Matt Damon",
+                            "Jessica Chastain",
+                            "Kristen Wiig"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "adventure",
+                            "drama"
+                        ]
+                    },
+                    {
+                        "Title": "بلا حدود",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=4TLppsfzQH8",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/xlnl2qhH2vDHjrWckaqBDIj3pwT.jpg",
+                        "Seasons": "2011",
+                        "RatingValue": 3.7,
+                        "RatingMax": 5.0,
+                        "Director": "Neil Burger",
+                        "Plot": "مع مساعدة من حبوب منع الحمل الغامضة التي تمكن المستخدم من الوصول إلى 100 في المئة من قدراته الدماغ، وكاتبة تكافح يصبح معالج المالية، لكنه يضع أيضا له في عالم جديد مع الكثير من المخاطر.",
+                        "Cast": [
+                            "Bradley Cooper",
+                            "Anna Friel",
+                            "Abbie Cornish"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "mystery",
+                            "thriller"
+                        ]
+                    },
+                    {
+                        "Title": "ترون: الإرث",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=L9szn1QQfas",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/kwPq6X7J0UB0Zp1cwoaFTZClsNt.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 3.4,
+                        "RatingMax": 5.0,
+                        "Director": "Joseph Kosinski",
+                        "Plot": "ترون: الإرث (بالإنجليزية: Tron: Legacy) هو فيلم خيال علمي أمريكي من إنتاج أفلام والت ديزني ،الفيلم من بطولة جيف بريدجز وأوليفيا وايلد ، الفيلم هو الجزء الثاني لفيلم ترون الذي صدر في 1982 , صور الفيلم بتقنية 3D وتم إستخدام تقنية مفتاح الكروما بالإضافة لتقنيات أخرى ، موسيقى الفيلم كانت من تأليف فرقة دافت بانك الفرنسية .",
+                        "Cast": [
+                            "Jeff Bridges",
+                            "Garrett Hedlund",
+                            "Olivia Wilde"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "adventure"
+                        ]
+                    },
+                    {
+                        "Title": "جاذبية",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=OiTiKOy59o4",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/8Ocoj4GJlKpxxeh35o7thdco6JW.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 3.9,
+                        "RatingMax": 5.0,
+                        "Director": "Alfonso Cuarón",
+                        "Plot": "فالمهندس الطبي ورائد الفضاء يعملان معا للبقاء على قيد الحياة بعد وقوع حادث يتركهما في الفضاء.",
+                        "Cast": [
+                            "Sandra Bullock",
+                            "George Clooney",
+                            "Ed Harris"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "drama"
+                        ]
+                    },
+                    {
+                        "Title": "النسيان",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=XmIIgE7eSak",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/c2AiGLgYdAMu8jjiSOSZTc6F3cL.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 3.5,
+                        "RatingMax": 5.0,
+                        "Director": "Joseph Kosinski",
+                        "Plot": "ويبدأ المخضرم المكلف باستخراج موارد الأرض المتبقية بالتساؤل عما يعرفه عن مهمته وعن نفسه.",
+                        "Cast": [
+                            "Tom Cruise",
+                            "Morgan Freeman",
+                            "Andrea Riseborough"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "drama",
+                            "thriller"
+                        ]
+                    },
+                    {
+                        "Title": "غوست إن ذا شيل",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=G4VmJcZR0Yg",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/2tdlBIw3Rw1wO8jBEK889Wo4e6K.jpg",
+                        "Seasons": "2017",
+                        "RatingValue": 3.5,
+                        "RatingMax": 5.0,
+                        "Director": "Rupert Sanders",
+                        "Plot": "وتحاول شرطية سايبورغ اسقاط قراصنة كمبيوتر شائنة.",
+                        "Cast": [
+                            "Jonathan Herman",
+                            "Jamie Moss"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller",
+                            "drama"
+                        ]
+                    },
+                    {
+                        "Title": "إيليزيم",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=oIBtePb-dGY",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/3tkRyEAlDciJmbitE0h2BPFbWrd.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 3.3,
+                        "RatingMax": 5.0,
+                        "Director": "Neill Blomkamp",
+                        "Plot": "في عام 2154، يعيش الأثرياء جدا على محطة فضائية من صنع الإنسان في حين أن بقية السكان يقيمون على الأرض المدمرة. رجل يأخذ مهمة يمكن أن تجلب المساواة للعوالم المستقطبة.",
+                        "Cast": [
+                            "Matt Damon",
+                            "Jodie Foster",
+                            "Sharlto Copley"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller",
+                            "drama"
+                        ]
+                    },
+                    {
+                        "Title": "المبيد جنسايس",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=62E4FJTwSuc",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/wboQBwqPLRRapOygmIEMpaD62az.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 3.3,
+                        "RatingMax": 5.0,
+                        "Director": "Alan Taylor",
+                        "Plot": "عندما جون كونور، زعيم المقاومة البشرية، وإرسال سغت. كايل ريس إلى عام 1984 لحماية سارة كونور وحماية المستقبل، تحول غير متوقع للأحداث يخلق جدول زمني مكسور.",
+                        "Cast": [
+                            "Arnold Schwarzenegger",
+                            "Jason Clarke",
+                            "Emilia Clarke"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller",
+                            "adventure"
+                        ]
+                    }
+                ]
+            },
+            {
+                "Title": "Marvel الكون العناوين",
+                "Movies": [
+                    {
+                        "Title": "رجال-إكس الأصول: وولفرين",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=QojV7s3UTu0",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/7m8UUbcQxAkXtC4RPf4ixsreFld.jpg",
+                        "Seasons": "2009",
+                        "RatingValue": 3.35,
+                        "RatingMax": 5.0,
+                        "Director": "Gavin Hood",
+                        "Plot": "إكس-من الأصول: وولفرين (بالإنجليزية: X-Men Origins: Wolverine) هو فيلم أبطال خارقين أنتج سنة 2009 مقتبس من الشخصية الخيالية لـ مارفل كومكس وولفرين، الفيلم أصدر لأول مرة في 28 أبريل وعلى الصعيد العالمي في 1 مايو، وهو من إخراج جافين هوود، وبطولة هيو جاكمان الذي يجسد الشخصية الرئيسية، إضافة لـ ليف شريبر، داني هيوستن، ويل.ي.يام، لين كولينز، تايلور كيتش ورايان رينولدز، وتروي سيفان وهو الجزء الرابع من سلسلة أفلام إكس- مان.",
+                        "Cast": [
+                            "Hugh Jackman",
+                            "Liev Schreiber",
+                            "Ryan Reynolds"
+                        ],
+                        "Genres": [
+                            "thriller",
+                            "science fiction",
+                            "action",
+                            "adventure"
+                        ]
+                    },
+                    {
+                        "Title": "آيرون مان",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=8hYlB38asDY",
+                        "Source": "https://image.tmdb.org/t/p/original/rYy4MShKrZVXhiG4BLqwW1PeSOT.jpg",
+                        "Seasons": "2008",
+                        "RatingValue": 3.95,
+                        "RatingMax": 5.0,
+                        "Director": "Jon Favreau",
+                        "Plot": "بعد احتجازه في كهف أفغاني، فإن المهندس الملياردير توني ستارك يخلق بدلة فريدة من السلاح مدرعة لمحاربة الشر.",
+                        "Cast": [
+                            "Robert Downey Jr.",
+                            "Gwyneth Paltrow",
+                            "Terrence Howard"
+                        ],
+                        "Genres": [
+                            "thriller",
+                            "science fiction",
+                            "action"
+                        ]
+                    },
+                    {
+                        "Title": "آيرون مان 2",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=BoohRoVA9WQ",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/rjVcKi0LkaHSan9xKJpkwS6GrS2.jpg",
+                        "Seasons": "2010",
+                        "RatingValue": 3.5,
+                        "RatingMax": 5.0,
+                        "Director": "Jon Favreau",
+                        "Plot": "ومع إدراك العالم الآن لهويته كرجل حديدي، يجب أن يتصدى توني ستارك لصحته الصحية المتدهورة والجنون الغارقين الذين لهم صلات بإرث والده.",
+                        "Cast": [
+                            "Robert Downey Jr.",
+                            "Mickey Rourke",
+                            "Gwyneth Paltrow"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "adventure"
+                        ]
+                    },
+                    {
+                        "Title": "الرجل الحديدي 3",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=Ke1Y3P9D0Bc",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/mHUs170P6Gw3X8qNNGrFVldA5fk.jpg",
+                        "Seasons": "2013",
+                        "RatingValue": 3.6,
+                        "RatingMax": 5.0,
+                        "Director": "Shane Black",
+                        "Plot": "عندما تمزق العالم توني ستارك من قبل إرهابي هائل يسمى الماندرين، وقال انه يبدأ نوبة من إعادة البناء والقصاص.",
+                        "Cast": [
+                            "Robert Downey Jr.",
+                            "Guy Pearce",
+                            "Gwyneth Paltrow"
+                        ],
+                        "Genres": [
+                            "science fiction",
+                            "action",
+                            "thriller"
+                        ]
+                    },
+                    {
+                        "Title": "فنتاستك فور",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=_rRoD28-WgU",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/3lVrQmxNqjeqttkq07raTPRDV0F.jpg",
+                        "Seasons": "2015",
+                        "RatingValue": 2.15,
+                        "RatingMax": 5.0,
+                        "Director": "Josh Trank",
+                        "Plot": "أربعة الشباب الغرباء النقل الفضائي إلى الكون البديل والخطير الذي يغير شكلها البدني بطرق صادمة. يجب على الأربعة تعلم كيفية تسخير قدراتهم الجديدة والعمل معا لإنقاذ الأرض من صديق السابق تحول العدو.",
+                        "Cast": [
+                            "Miles Teller",
+                            "Kate Mara",
+                            "Michael B. Jordan"
+                        ],
+                        "Genres": [
+                            "action",
+                            "adventure",
+                            "fantasy",
+                            "science fiction"
+                        ]
+                    },
+                    {
+                        "Title": "هولك",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=2ErnLuJKQA4",
+                        "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/rX3eLT0bvrjO4dMYhukGV1WnOv9.jpg",
+                        "Seasons": "2003",
+                        "RatingValue": 2.85,
+                        "RatingMax": 5.0,
+                        "Director": "Ang Lee",
+                        "Plot": "بروس بانر، باحث في علم الوراثة مع ماضي مأساوي، يعاني من حادث يجعله يتحول إلى وحش أخضر مستعجل عندما يغضب.",
+                        "Cast": [
+                            "Eric Bana",
+                            "Jennifer Connelly",
+                            "Sam Elliott"
+                        ],
+                        "Genres": [
+                            "fantasy",
+                            "action",
+                            "adventure",
+                            "science fiction"
+                        ]
+                    },
+                    {
+                        "Title": "هولك الخارق",
+                        "TrailerVideo": "https://www.youtube.com/watch?v=xbqNb2PFKKA",
+                        "Source": "https://image.tmdb.org/t/p/original/nJvb0J281x7oB32L0zVVnsO5VOL.jpg",
+                        "Seasons": "2008",
+                        "RatingValue": 3.4,
+                        "RatingMax": 5.0,
+                        "Director": "Louis Leterrier",
+                        "Plot": "يجب على بروس بانر، وهو عالم يدير من حكومة الولايات المتحدة، أن يجد علاجا للوحش الذي يخرج منه كلما فقد مزاجه. ومع ذلك، بانر ثم يجب محاربة الجندي الذي يطلق العنان لنفسه كتهديد أقوى منه.",
+                        "Cast": [
+                            "Edward Norton",
+                            "Liv Tyler",
+                            "Tim Roth"
+                        ],
+                        "Genres": [
+                            "action",
+                            "fantasy",
+                            "science fiction",
+                            "adventure"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Featured": {
+            "$ref": "featured-movies"
+        }
+    },
+    "MovieDetailPage.xaml": {
+        "Movie": {
+            "Title": "جانغو متحرر",
+            "TrailerVideo": "https://www.youtube.com/watch?v=_iH0UBYDI4g",
+            "Source": "https://image.tmdb.org/t/p/w440_and_h660_bestv2/2lwQVuahsePfQbnXvj14Qy0QzA7.jpg",
+            "Seasons": "2012",
+            "RatingValue": 4.25,
+            "RatingMax": 5.0,
+            "Director": "Quentin Tarantino",
+            "Plot": "جانغو الحر أو «جانغو المتحرر من القيود» (بالإنجليزية: Django Unchained)) هو فيلم غرب أمريكي من كتابة وإخراج كوينتن تارانتينو. الفيلم من بطولة جيمي فوكس وكريستوف والتز وليوناردو دي كابريو وصامويل ل. جاكسون وكيري واشنطن. صدر الفيلم في 25 ديسمبر 2012 في أمريكا الشمالية.",
+            "Cast": [
+                "Jamie Foxx",
+                "Christoph Waltz",
+                "Leonardo DiCaprio"
+            ],
+            "Genres": [
+                "DRAMA",
+                "WESTERN"
+            ],
+            "Section": {
+                "$ref": "movie-section-1"
+            }
+        }
+    },
+    "FeaturedMoviesPage.xaml": {
+        "$ref": "featured-movies"
+    }
+}

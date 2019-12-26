@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" 
+             xmlns:local="clr-namespace:ERM_HSYT.Views.CustomForm.Templates"
+             x:Class="ERM_HSYT.Views.CustomForm.DsLichHen"
+             BackgroundColor="{ DynamicResource BasePageColor }"
+             Title="{grial:Translate TitleDsLichHen}"
+	         grial:Effects.ApplyIOSSafeAreaAsPadding="Left,Right">
+
+
+
+
+    <!--<AbsoluteLayout Padding="0" Grid.Row="4" BackgroundColor="Transparent">-->
+    <!--AbsoluteLayout.LayoutFlags="All"-->
+    <!--AbsoluteLayout.LayoutBounds="0,1,1,1"-->
+    <AbsoluteLayout>
+        <ListView
+		    HasUnevenRows="true"
+		    IsPullToRefreshEnabled="true"
+		    Refreshing="OnRefreshing"
+		    CachingStrategy="RecycleElement"
+		    ItemsSource="{ Binding DsLichHens }">
+            <ListView.RowHeight>
+                <OnIdiom
+				x:TypeArguments="x:Int32"
+				Phone="120"
+				Tablet="160" />
+            </ListView.RowHeight>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell IsEnabled="False">
+                        <!-- 
+                        MenuItem texts have Mode=OneTime to avoid that property to change due to the following problem:
+                        https://bugzilla.xamarin.com/show_bug.cgi?id=57917
+                    -->
+                        <!--<ViewCell.ContextActions>
+                            <MenuItem
+							Clicked="OnMore"
+							Text="{ grial:Translate Key=ButtonMore, Mode=OneTime }" />
+
+                            <MenuItem
+							Clicked="OnDelete"
+							Text="{ grial:Translate Key=ButtonDelete, Mode=OneTime }"
+							IsDestructive="True" />
+                        </ViewCell.ContextActions>-->
+
+                        <local:DsLichHenTemplate />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <!--<views:FloatingActionButton 
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
+            BackgroundColor="Transparent"
+            Margin="10"
+            CornerRadius="100"
+            Image="plus.png"  Clicked="FloatingActionButton_Clicked" />-->
+
+
+        <ImageButton Source="plus.png" 
+            BackgroundColor="Transparent"
+            AbsoluteLayout.LayoutFlags="PositionProportional"  
+            AbsoluteLayout.LayoutBounds=".95,.95,80,80" 
+            Clicked="FloatingActionButton_Clicked" />
+    </AbsoluteLayout>
+
+</ContentPage>

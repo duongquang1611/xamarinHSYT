@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="StringGrial" xml:space="preserve">
+    <value>[vi-VN] Grial</value>
+  </data>
+  <data name="StringUIKIT" xml:space="preserve">
+    <value>[vi-VN] UI KIT</value>
+  </data>
+  <data name="StringColon" xml:space="preserve">
+    <value>[vi-VN] ,</value>
+  </data>
+  <data name="StringNew" xml:space="preserve">
+    <value>[vi-VN] NEW</value>
+  </data>
+  <data name="StringOK" xml:space="preserve">
+    <value>[vi-VN] OK</value>
+  </data>
+  <data name="StringSave" xml:space="preserve">
+    <value>[vi-VN] Save</value>
+  </data>
+  <data name="StringCompare" xml:space="preserve">
+    <value>[vi-VN] Compare</value>
+  </data>
+  <data name="StringShare" xml:space="preserve">
+    <value>[vi-VN] Share</value>
+  </data>
+  <data name="StringBuy" xml:space="preserve">
+    <value>[vi-VN] Buy</value>
+  </data>
+  <data name="StringUsername" xml:space="preserve">
+    <value>[vi-VN] Username</value>
+  </data>
+  <data name="StringName" xml:space="preserve">
+    <value>[vi-VN] Name</value>
+  </data>
+  <data name="StringLastName" xml:space="preserve">
+    <value>[vi-VN] Last Name</value>
+  </data>
+  <data name="StringCardNumber" xml:space="preserve">
+    <value>[vi-VN] Card Number</value>
+  </data>
+  <data name="StringCVC" xml:space="preserve">
+    <value>[vi-VN] CVC</value>
+  </data>
+  <data name="StringExpirationDate" xml:space="preserve">
+    <value>[vi-VN] Expiration Date</value>
+  </data>
+  <data name="StringAddress" xml:space="preserve">
+    <value>[vi-VN] Address</value>
+  </data>
+  <data name="StringAddress1" xml:space="preserve">
+    <value>[vi-VN] Address Line 1</value>
+  </data>
+  <data name="StringAddress2" xml:space="preserve">
+    <value>[vi-VN] Address Line 2</value>
+  </data>
+  <data name="StringCity" xml:space="preserve">
+    <value>[vi-VN] City</value>
+  </data>
+  <data name="StringState" xml:space="preserve">
+    <value>[vi-VN] State</value>
+  </data>
+  <data name="StringZipCode" xml:space="preserve">
+    <value>[vi-VN] Zip Code</value>
+  </data>
+  <data name="StringCountry" xml:space="preserve">
+    <value>[vi-VN] Country</value>
+  </data>
+  <data name="StringNotes" xml:space="preserve">
+    <value>[vi-VN] Notes</value>
+  </data>
+  <data name="StringEmail" xml:space="preserve">
+    <value>[vi-VN] Email</value>
+  </data>
+  <data name="StringExplore" xml:space="preserve">
+    <value>[vi-VN] Explore</value>
+  </data>
+  <data name="StringPassword" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="StringSignUp" xml:space="preserve">
+    <value>[vi-VN] Sign Up!</value>
+  </data>
+  <data name="StringLogin" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="StringWelcomeToGrial" xml:space="preserve">
+    <value>[vi-VN] Welcome to Grial!</value>
+  </data>
+  <data name="StringTwitter" xml:space="preserve">
+    <value>[vi-VN] Twitter</value>
+  </data>
+  <data name="StringFacebook" xml:space="preserve">
+    <value>[vi-VN] Facebook</value>
+  </data>
+  <data name="StringSend" xml:space="preserve">
+    <value>[vi-VN] Send</value>
+  </data>
+  <data name="StringDone" xml:space="preserve">
+    <value>[vi-VN] Done</value>
+  </data>
+  <data name="StringConfirmation" xml:space="preserve">
+    <value>[vi-VN] Confirmation</value>
+  </data>
+  <data name="StringError" xml:space="preserve">
+    <value>[vi-VN] Error</value>
+  </data>
+  <data name="StringNotification" xml:space="preserve">
+    <value>[vi-VN] Notification</value>
+  </data>
+  <data name="StringSuccess" xml:space="preserve">
+    <value>[vi-VN] Success</value>
+  </data>
+  <data name="StringWarning" xml:space="preserve">
+    <value>[vi-VN] Warning</value>
+  </data>
+  <data name="StringScreens" xml:space="preserve">
+    <value>[vi-VN] screens</value>
+  </data>
+  <data name="StringCategorySocial" xml:space="preserve">
+    <value>[vi-VN] Social</value>
+  </data>
+  <data name="StringCategoryArticles" xml:space="preserve">
+    <value>[vi-VN] Articles</value>
+  </data>
+  <data name="StringCategoryDashboards" xml:space="preserve">
+    <value>[vi-VN] Dashboards</value>
+  </data>
+  <data name="StringCategoryNavigation" xml:space="preserve">
+    <value>[vi-VN] Navigation</value>
+  </data>
+  <data name="StringCategoryLogins" xml:space="preserve">
+    <value>[vi-VN] Logins</value>
+  </data>
+  <data name="StringCategoryForms" xml:space="preserve">
+    <value>[vi-VN] Forms</value>
+  </data>
+  <data name="StringCategoryECommerce" xml:space="preserve">
+    <value>[vi-VN] ECommerce</value>
+  </data>
+  <data name="StringCategoryWalkthroughs" xml:space="preserve">
+    <value>[vi-VN] Walkthroughs</value>
+  </data>
+  <data name="StringCategoryOnboarding" xml:space="preserve">
+    <value>[vi-VN] Onboarding</value>
+  </data>
+  <data name="StringCategoryMessages" xml:space="preserve">
+    <value>[vi-VN] Messages</value>
+  </data>
+  <data name="StringCategoryTheme" xml:space="preserve">
+    <value>[vi-VN] Theme</value>
+  </data>
+  <data name="StringCategoryDataViz" xml:space="preserve">
+    <value>[vi-VN] Data Viz</value>
+  </data>
+  <data name="StringClareJapi" xml:space="preserve">
+    <value>[vi-VN] Clare Japi</value>
+  </data>
+  <data name="StringRobertStainford" xml:space="preserve">
+    <value>[vi-VN] Robert Stainford</value>
+  </data>
+  <data name="StringNext" xml:space="preserve">
+    <value>[vi-VN] Next</value>
+  </data>
+  <data name="StringPrevious" xml:space="preserve">
+    <value>[vi-VN] Previous</value>
+  </data>
+  <data name="StringFinish" xml:space="preserve">
+    <value>[vi-VN] Finish!</value>
+  </data>
+  <data name="StringLinkedin" xml:space="preserve">
+    <value>[vi-VN] Linkedin</value>
+  </data>
+  <data name="StringContact" xml:space="preserve">
+    <value>[vi-VN] Contact</value>
+  </data>
+  <data name="StringContactUs" xml:space="preserve">
+    <value>[vi-VN] Contact Us</value>
+  </data>
+  <data name="StringEditContact" xml:space="preserve">
+    <value>[vi-VN] Edit contact</value>
+  </data>
+  <data name="StringNewContact" xml:space="preserve">
+    <value>[vi-VN] Add contact</value>
+  </data>
+  <data name="StringLoading" xml:space="preserve">
+    <value>[vi-VN] Loading...</value>
+  </data>
+  <data name="StringSkip" xml:space="preserve">
+    <value>[vi-VN] Skip</value>
+  </data>
+  <data name="StringSaveChanges" xml:space="preserve">
+    <value>[vi-VN] Save Changes</value>
+  </data>
+  <data name="StringBatmanChoice" xml:space="preserve">
+    <value>[vi-VN] Batman's choice</value>
+  </data>
+  <data name="StringExtraSoftUIFlavor" xml:space="preserve">
+    <value>[vi-VN] Extra soft UI flavor</value>
+  </data>
+  <data name="StringImpressYourBoss" xml:space="preserve">
+    <value>[vi-VN] Impress your boss</value>
+  </data>
+  <data name="StringIcons" xml:space="preserve">
+    <value>[vi-VN] Icons</value>
+  </data>
+  <data name="StringContextActionTapped" xml:space="preserve">
+    <value>[vi-VN] {0} Context Action Tapped</value>
+  </data>
+  <data name="StringTappedOnContextAction" xml:space="preserve">
+    <value>[vi-VN] You tapped on {0} context action.</value>
+  </data>
+  <data name="StringMessageTapped" xml:space="preserve">
+    <value>[vi-VN] Message Tapped</value>
+  </data>
+  <data name="StringButtonTapped" xml:space="preserve">
+    <value>[vi-VN] Button Tapped</value>
+  </data>
+  <data name="StringTappedOnAuthorMessage" xml:space="preserve">
+    <value>[vi-VN] You tapped on {0}'s message.</value>
+  </data>
+  <data name="StringMoreFrom" xml:space="preserve">
+    <value>[vi-VN] More from {0}</value>
+  </data>
+  <data name="StringLastMonth" xml:space="preserve">
+    <value>[vi-VN] Last Month</value>
+  </data>
+  <data name="StringLastYear" xml:space="preserve">
+    <value>[vi-VN] Last Year</value>
+  </data>
+  <data name="StringLastWeek" xml:space="preserve">
+    <value>[vi-VN] Last Week</value>
+  </data>
+  <data name="StringRelatedNews" xml:space="preserve">
+    <value>[vi-VN] Related news</value>
+  </data>
+  <data name="StringAll" xml:space="preserve">
+    <value>[vi-VN] All</value>
+  </data>
+  <data name="StringInTransit" xml:space="preserve">
+    <value>[vi-VN] In Transit</value>
+  </data>
+  <data name="StringClosed" xml:space="preserve">
+    <value>[vi-VN] Closed</value>
+  </data>
+  <data name="StringClose" xml:space="preserve">
+    <value>[vi-VN] Close</value>
+  </data>
+  <data name="StringOpen" xml:space="preserve">
+    <value>[vi-VN] Open</value>
+  </data>
+  <data name="StringScore" xml:space="preserve">
+    <value>[vi-VN] Score</value>
+  </data>
+  <data name="RemainingTasks" xml:space="preserve">
+    <value>[vi-VN] {0} tasks remaining</value>
+  </data>
+  <data name="AgendaTitle" xml:space="preserve">
+    <value>[vi-VN] Your Agenda for this week</value>
+  </data>
+  <data name="CompletedTasks" xml:space="preserve">
+    <value>[vi-VN] Completed Tasks</value>
+  </data>
+  <data name="StringWorkspaces" xml:space="preserve">
+    <value>[vi-VN] Workspaces</value>
+  </data>
+  <data name="StringProjects" xml:space="preserve">
+    <value>[vi-VN] Projects</value>
+  </data>
+  <data name="StringDetails" xml:space="preserve">
+    <value>[vi-VN] Details</value>
+  </data>
+  <data name="PageTitleParallaxHeaderArticle" xml:space="preserve">
+    <value>[vi-VN] Parallax Header Article</value>
+  </data>
+  <data name="PageTitleCardArticle" xml:space="preserve">
+    <value>[vi-VN] Card Article</value>
+  </data>
+  <data name="PageTitleCurvedHeaderArticle" xml:space="preserve">
+    <value>[vi-VN] Curved Header Article</value>
+  </data>
+  <data name="PageTitleArticlesClassicView" xml:space="preserve">
+    <value>[vi-VN] Articles Classic View</value>
+  </data>
+  <data name="PageTitleArticlesFeed" xml:space="preserve">
+    <value>[vi-VN] Articles Feed</value>
+  </data>
+  <data name="PageTitleArticlesList" xml:space="preserve">
+    <value>[vi-VN] Articles List</value>
+  </data>
+  <data name="PageTitleArticlesListVariant" xml:space="preserve">
+    <value>[vi-VN] Articles List Variant</value>
+  </data>
+  <data name="PageTitleArticlesColumns" xml:space="preserve">
+    <value>[vi-VN] Articles Columns</value>
+  </data>
+  <data name="PageTitleArticleDetail" xml:space="preserve">
+    <value>[vi-VN] Article Detail</value>
+  </data>
+  <data name="PageTitleDashboardCards" xml:space="preserve">
+    <value>[vi-VN] Dashboard Cards</value>
+  </data>
+  <data name="PageTitleFlatDashboard" xml:space="preserve">
+    <value>[vi-VN] Flat Dashboard</value>
+  </data>
+  <data name="PageTitleDashboardMultipleTiles" xml:space="preserve">
+    <value>[vi-VN] Multiple Tiles</value>
+  </data>
+  <data name="PageTitleIconsDashboard" xml:space="preserve">
+    <value>[vi-VN] Icons Dashboard</value>
+  </data>
+  <data name="PageTitleImagesDashboard" xml:space="preserve">
+    <value>[vi-VN] Images Dashboard</value>
+  </data>
+  <data name="RoundedLabelCast" xml:space="preserve">
+    <value>[vi-VN] CAST</value>
+  </data>
+  <data name="RoundedLabelDirector" xml:space="preserve">
+    <value>[vi-VN] DIRECTOR</value>
+  </data>
+  <data name="AlertTitleMovieTapped" xml:space="preserve">
+    <value>[vi-VN] Movie Tapped!</value>
+  </data>
+  <data name="AlertMessageMovieShouldPlayMovieNow" xml:space="preserve">
+    <value>[vi-VN] You should start playing the movie now</value>
+  </data>
+  <data name="SampleDashboardGrialMovies" xml:space="preserve">
+    <value>[vi-VN] Movies Main Page</value>
+  </data>
+  <data name="ButtonPlayMovie" xml:space="preserve">
+    <value>[vi-VN] Play Movie</value>
+  </data>
+  <data name="PageTitleChatMain" xml:space="preserve">
+    <value>[vi-VN] Chat Main Page</value>
+  </data>
+  <data name="PageTitleChatMessages" xml:space="preserve">
+    <value>[vi-VN] Chat Messages Flow</value>
+  </data>
+  <data name="PageTitleAddContact" xml:space="preserve">
+    <value>[vi-VN] Add Contact Page Flow</value>
+  </data>
+  <data name="PageTitleContactDetail" xml:space="preserve">
+    <value>[vi-VN] Contact Detail Page Flow</value>
+  </data>
+  <data name="PageTitleContactSimpleDetail" xml:space="preserve">
+    <value>[vi-VN] Contact Simple Detail</value>
+  </data>
+  <data name="PageTitleDocumentTimeline" xml:space="preserve">
+    <value>[vi-VN] Document Timeline</value>
+  </data>
+  <data name="PageTitleProfile" xml:space="preserve">
+    <value>[vi-VN] Profile</value>
+  </data>
+  <data name="SampleUserProfile" xml:space="preserve">
+    <value>[vi-VN] User Profile</value>
+  </data>
+  <data name="PageTitleSocial" xml:space="preserve">
+    <value>[vi-VN] Social</value>
+  </data>
+  <data name="PageTitleSocialVariant" xml:space="preserve">
+    <value>[vi-VN] Social Variant</value>
+  </data>
+  <data name="PageTitleSocialCard" xml:space="preserve">
+    <value>[vi-VN] Social Card</value>
+  </data>
+  <data name="PageTitleTimeline" xml:space="preserve">
+    <value>[vi-VN] Timeline</value>
+  </data>
+  <data name="PageTitleSocialGalleryImagePreview" xml:space="preserve">
+    <value>[vi-VN] Image Preview</value>
+  </data>
+  <data name="StringFriends" xml:space="preserve">
+    <value>[vi-VN] FRIENDS</value>
+  </data>
+  <data name="StringPhotos" xml:space="preserve">
+    <value>[vi-VN] PHOTOS</value>
+  </data>
+  <data name="PageTitleCheckout" xml:space="preserve">
+    <value>[vi-VN] Checkout Page</value>
+  </data>
+  <data name="PageTitleEcommerceMain" xml:space="preserve">
+    <value>[vi-VN] Ecommerce Flow Main Page</value>
+  </data>
+  <data name="PageTitleOrderConfirmation" xml:space="preserve">
+    <value>[vi-VN] Order Confirmation</value>
+  </data>
+  <data name="PageTitleProductDetail" xml:space="preserve">
+    <value>[vi-VN] Product Detail</value>
+  </data>
+  <data name="ButtonAddToCart" xml:space="preserve">
+    <value>[vi-VN] Add to cart</value>
+  </data>
+  <data name="PageTitleProductsCatalog" xml:space="preserve">
+    <value>[vi-VN] Products Catalog</value>
+  </data>
+  <data name="PageTitleProductItemFullScreen" xml:space="preserve">
+    <value>[vi-VN] Product FullScreen</value>
+  </data>
+  <data name="PageTitleProductImageFullScreen" xml:space="preserve">
+    <value>[vi-VN] Product FullScreen</value>
+  </data>
+  <data name="SampleProductFullscreen" xml:space="preserve">
+    <value>[vi-VN] Product FullScreen</value>
+  </data>
+  <data name="PageTitleProductOrder" xml:space="preserve">
+    <value>[vi-VN] Product Order</value>
+  </data>
+  <data name="PageTitleProductsGrid" xml:space="preserve">
+    <value>[vi-VN] Products Grid</value>
+  </data>
+  <data name="PageTitleProductsGridVariant" xml:space="preserve">
+    <value>[vi-VN] Products Grid Variant</value>
+  </data>
+  <data name="BannerTitle25DiscOff" xml:space="preserve">
+    <value>[vi-VN] 25% discount</value>
+  </data>
+  <data name="BannerBodyEnjoyItNow" xml:space="preserve">
+    <value>[vi-VN] Enjoy it now!</value>
+  </data>
+  <data name="PageTitleProductItemView" xml:space="preserve">
+    <value>[vi-VN] Product Item View</value>
+  </data>
+  <data name="SampleProductItemView" xml:space="preserve">
+    <value>[vi-VN] Product Item View</value>
+  </data>
+  <data name="SampleProductCarousel" xml:space="preserve">
+    <value>[vi-VN] Products Carousel</value>
+  </data>
+  <data name="PageTitleProductsCarousel" xml:space="preserve">
+    <value>[vi-VN] Products Carousel</value>
+  </data>
+  <data name="PageTitleTabbedLogin" xml:space="preserve">
+    <value>[vi-VN] Tabbed Login</value>
+  </data>
+  <data name="PageTitleFullBackgroundLogin" xml:space="preserve">
+    <value>[vi-VN] Full Background Login</value>
+  </data>
+  <data name="PageTitleFullBackgroundSignup" xml:space="preserve">
+    <value>[vi-VN] Full Background Signup</value>
+  </data>
+  <data name="PageTitleOrganizationForm" xml:space="preserve">
+    <value>[vi-VN] Organization Form</value>
+  </data>
+  <data name="PageTitleSimpleLogin" xml:space="preserve">
+    <value>[vi-VN] Simple Login</value>
+  </data>
+  <data name="PageTitleSimpleSignUp" xml:space="preserve">
+    <value>[vi-VN] Simple Sign Up</value>
+  </data>
+  <data name="PageTitlePasswordRecovery" xml:space="preserve">
+    <value>[vi-VN] Password Recovery</value>
+  </data>
+  <data name="PageTitleLogin" xml:space="preserve">
+    <value>[vi-VN] Login</value>
+  </data>
+  <data name="PageTitleSignUp" xml:space="preserve">
+    <value>[vi-VN] Sign Up</value>
+  </data>
+  <data name="LabelUseCredentialsToLogin" xml:space="preserve">
+    <value>[vi-VN] Use your credentials to login.</value>
+  </data>
+  <data name="LabelOrConnectWith" xml:space="preserve">
+    <value>[vi-VN] Or connect with</value>
+  </data>
+  <data name="LabelForgotYourPassword" xml:space="preserve">
+    <value>[vi-VN] Forgot your password?</value>
+  </data>
+  <data name="LabelForgotYourPasswordExplained" xml:space="preserve">
+    <value>[vi-VN] Don't worry type your email here and we will recover it for you.</value>
+  </data>
+  <data name="ErrorPleaseEnterValidEmail" xml:space="preserve">
+    <value>[vi-VN] Please enter a valid e-mail</value>
+  </data>
+  <data name="LabelLoginOrRegisterUsinMailOrPass" xml:space="preserve">
+    <value>[vi-VN] Login or register using your email and password.</value>
+  </data>
+  <data name="LabelRegisterNow" xml:space="preserve">
+    <value>[vi-VN] Register now</value>
+  </data>
+  <data name="LabelRegisterNowAndEnjoy" xml:space="preserve">
+    <value>[vi-VN] Register now and enjoy the pleasures of the demo.</value>
+  </data>
+  <data name="LabelPasswordsDoNotMatch" xml:space="preserve">
+    <value>[vi-VN] Passwords do not match</value>
+  </data>
+  <data name="LabelRepeatPassword" xml:space="preserve">
+    <value>[vi-VN] Repeat Password</value>
+  </data>
+  <data name="ButtonAlreadyUserLoginNow" xml:space="preserve">
+    <value>[vi-VN] Already a user? Login now</value>
+  </data>
+  <data name="PageTitlePopups" xml:space="preserve">
+    <value>[vi-VN] Popups and Dialogs</value>
+  </data>
+  <data name="PageTitleChatTimeline" xml:space="preserve">
+    <value>[vi-VN] Chat Timeline</value>
+  </data>
+  <data name="PageTitleRecentChatList" xml:space="preserve">
+    <value>[vi-VN] Recent Chat List</value>
+  </data>
+  <data name="PageTitleMessagesList" xml:space="preserve">
+    <value>[vi-VN] Messages List</value>
+  </data>
+  <data name="PageTitleChatMessagesList" xml:space="preserve">
+    <value>[vi-VN] Chat Messages List</value>
+  </data>
+  <data name="LabelThereIsNothingHere" xml:space="preserve">
+    <value>[vi-VN] There's nothing here my friend :)</value>
+  </data>
+  <data name="PageTitleNavigationCardsDescriptionList" xml:space="preserve">
+    <value>[vi-VN] Card Description List</value>
+  </data>
+  <data name="PageTitleMoviesMain" xml:space="preserve">
+    <value>[vi-VN] Grial Movies</value>
+  </data>
+  <data name="PageTitleFeaturedMovies" xml:space="preserve">
+    <value>[vi-VN] Featured Movies</value>
+  </data>
+  <data name="PageTitleMovieDetail" xml:space="preserve">
+    <value>[vi-VN] Movie Detail</value>
+  </data>
+  <data name="PageTitleArticlesBrowser" xml:space="preserve">
+    <value>[vi-VN] Articles Browser</value>
+  </data>
+  <data name="PageTitleDashboardCarousel" xml:space="preserve">
+    <value>[vi-VN] Dashboard with Carousel</value>
+  </data>
+  <data name="PageTitleMainMenu" xml:space="preserve">
+    <value>[vi-VN] Main Menu</value>
+  </data>
+  <data name="PageTitleNavigationCardsList" xml:space="preserve">
+    <value>[vi-VN] Cards List</value>
+  </data>
+  <data name="PageTitleNavigationFlatList" xml:space="preserve">
+    <value>[vi-VN] Flat List</value>
+  </data>
+  <data name="PageTitleNavigationListWithIcons" xml:space="preserve">
+    <value>[vi-VN] List With Icons</value>
+  </data>
+  <data name="PageTitleNavigationListWithImages" xml:space="preserve">
+    <value>[vi-VN] List With Images</value>
+  </data>
+  <data name="PageTitleEmptyState" xml:space="preserve">
+    <value>[vi-VN] Empty State</value>
+  </data>
+  <data name="PageTitleNotifications" xml:space="preserve">
+    <value>[vi-VN] Notifications</value>
+  </data>
+  <data name="StringReadyMadeUIsForXamarin" xml:space="preserve">
+    <value>[vi-VN] Ready made UI's for Xamarin.Forms.</value>
+  </data>
+  <data name="PageTitleWelcome" xml:space="preserve">
+    <value>[vi-VN] Welcome Page</value>
+  </data>
+  <data name="LabelTakeYourAppToNextLevel" xml:space="preserve">
+    <value>[vi-VN] Take your Xamarin App to the next level with Grial UI  Kit V3.</value>
+  </data>
+  <data name="LabelWelcomeToGrialStarter" xml:space="preserve">
+    <value>[vi-VN] Welcome to Grial Starter</value>
+  </data>
+  <data name="LabelWelcomeToGrialStarterDescription" xml:space="preserve">
+    <value>[vi-VN] You are all setup and ready to rock!</value>
+  </data>
+  <data name="TakeWalkThrough" xml:space="preserve">
+    <value>[vi-VN] Take tour</value>
+  </data>
+  <data name="PageTitleVideoCarouselHighlights" xml:space="preserve">
+    <value>[vi-VN] Video Carousel Highlights</value>
+  </data>
+  <data name="PageTitleWalkthroughGradient" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Gradient</value>
+  </data>
+  <data name="PageTitleWalkthroughIllustration" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Illustration</value>
+  </data>
+  <data name="PageTitleWalkthroughImage" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Image</value>
+  </data>
+  <data name="PageTitleWalkthroughMinimal" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Minimal</value>
+  </data>
+  <data name="PageTitleWalkthroughFlat" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Flat</value>
+  </data>
+  <data name="PageTitleWalkthrough" xml:space="preserve">
+    <value>[vi-VN] Walkthrough</value>
+  </data>
+  <data name="PageTitleWalkthroughVariant" xml:space="preserve">
+    <value>[vi-VN] Walkthrough</value>
+  </data>
+  <data name="SampleTitleWalkthrough" xml:space="preserve">
+    <value>[vi-VN] Walkthrough</value>
+  </data>
+  <data name="SampleTitleWalkthroughFlat" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Flat</value>
+  </data>
+  <data name="SampleTitleWalkthroughVariant" xml:space="preserve">
+    <value>[vi-VN] Walkthrough Variant</value>
+  </data>
+  <data name="WalkthroughHeaderLearn" xml:space="preserve">
+    <value>[vi-VN] Learn</value>
+  </data>
+  <data name="WalkthroughHeaderSaveTime" xml:space="preserve">
+    <value>[vi-VN] Save Time</value>
+  </data>
+  <data name="WalkthroughHeaderWelcome" xml:space="preserve">
+    <value>[vi-VN] Welcome</value>
+  </data>
+  <data name="WalkthroughTextLearn" xml:space="preserve">
+    <value>[vi-VN] Learn while you do.
+Grial has tons of examples for you to play.</value>
+  </data>
+  <data name="WalkthroughTextSaveTime" xml:space="preserve">
+    <value>[vi-VN] Save countless hours of UI design.
+Focus on what you do best.</value>
+  </data>
+  <data name="WalkthroughTextWelcome" xml:space="preserve">
+    <value>[vi-VN] To a new world of posibilities,
+welcome to Grial UI Kit.</value>
+  </data>
+  <data name="PageTitleThemeOverview" xml:space="preserve">
+    <value>[vi-VN] Grial Theme Overview Page</value>
+  </data>
+  <data name="StringAnimation" xml:space="preserve">
+    <value>[vi-VN] Animation</value>
+  </data>
+  <data name="PageTitleTabControlCustomSample" xml:space="preserve">
+    <value>[vi-VN] Grial TabControl</value>
+  </data>
+  <data name="PageTitleTabControlAndroidSample" xml:space="preserve">
+    <value>[vi-VN] Grial Android TabControl</value>
+  </data>
+  <data name="PageTitleTabControliOSSample" xml:space="preserve">
+    <value>[vi-VN] Grial iOS TabControl</value>
+  </data>
+  <data name="PageTitleTabControlBottomPlacementSample" xml:space="preserve">
+    <value>[vi-VN] Grial Android Bottom TabControl</value>
+  </data>
+  <data name="PageTitleTab" xml:space="preserve">
+    <value>[vi-VN] Tabbed Page</value>
+  </data>
+  <data name="SampleTitleThemeDemoSettings" xml:space="preserve">
+    <value>[vi-VN] Pick Your Theme</value>
+  </data>
+  <data name="PageTitleAbout" xml:space="preserve">
+    <value>[vi-VN] Generic About Page</value>
+  </data>
+  <data name="PageTitleGenericAbout" xml:space="preserve">
+    <value>[vi-VN] Generic About Page</value>
+  </data>
+  <data name="PageTitleRichAbout" xml:space="preserve">
+    <value>[vi-VN] Rich About Page</value>
+  </data>
+  <data name="PageTitleCustomSettings" xml:space="preserve">
+    <value>[vi-VN] Custom Settings Page</value>
+  </data>
+  <data name="PageTitleCustomActivityIndicator" xml:space="preserve">
+    <value>[vi-VN] Custom Activity Indicator</value>
+  </data>
+  <data name="PageTitleResponsiveHelpers" xml:space="preserve">
+    <value>[vi-VN] Responsive Helpers</value>
+  </data>
+  <data name="PageTitleNativeControls" xml:space="preserve">
+    <value>[vi-VN] Native Controls</value>
+  </data>
+  <data name="PageTitleCustomRenderers" xml:space="preserve">
+    <value>[vi-VN] Custom Renderers</value>
+  </data>
+  <data name="PageTitleCommonViews" xml:space="preserve">
+    <value>[vi-VN] Grial Common Views</value>
+  </data>
+  <data name="PageTitleSettings" xml:space="preserve">
+    <value>[vi-VN] Settings Page</value>
+  </data>
+  <data name="LabelDisplayGlobalIssues" xml:space="preserve">
+    <value>[vi-VN] Display Global issues</value>
+  </data>
+  <data name="LabelClearImageCache" xml:space="preserve">
+    <value>[vi-VN] Clear Image Cache</value>
+  </data>
+  <data name="LabelActivityIndicators" xml:space="preserve">
+    <value>[vi-VN] ActivityIndicators</value>
+  </data>
+  <data name="LabelButtons" xml:space="preserve">
+    <value>[vi-VN] Buttons</value>
+  </data>
+  <data name="LabelFrames" xml:space="preserve">
+    <value>[vi-VN] Frames</value>
+  </data>
+  <data name="LabelThisIsAFrameDescription" xml:space="preserve">
+    <value>[vi-VN] This is a frame containing a Label control</value>
+  </data>
+  <data name="LabelEntriesAndEditors" xml:space="preserve">
+    <value>[vi-VN] Entries And Editors</value>
+  </data>
+  <data name="LabelPlaceholderEmail" xml:space="preserve">
+    <value>[vi-VN] Email</value>
+  </data>
+  <data name="EditorSampleText" xml:space="preserve">
+    <value>[vi-VN] I'm an Editor 
+and I love multiple lines! ;)</value>
+  </data>
+  <data name="LabelSliders" xml:space="preserve">
+    <value>[vi-VN] Sliders</value>
+  </data>
+  <data name="LabelProgressBars" xml:space="preserve">
+    <value>[vi-VN] ProgressBars</value>
+  </data>
+  <data name="LabelSwitches" xml:space="preserve">
+    <value>[vi-VN] Switches</value>
+  </data>
+  <data name="LabelPickers" xml:space="preserve">
+    <value>[vi-VN] Pickers</value>
+  </data>
+  <data name="PickerTitleSample" xml:space="preserve">
+    <value>[vi-VN] I'm a Picker!</value>
+  </data>
+  <data name="LabelListViewAndSearchBar" xml:space="preserve">
+    <value>[vi-VN] ListView and SearchBar</value>
+  </data>
+  <data name="SearchBarPlaceholderSearchForAName" xml:space="preserve">
+    <value>[vi-VN] Search for a name</value>
+  </data>
+  <data name="ButtonDefault" xml:space="preserve">
+    <value>[vi-VN] Default</value>
+  </data>
+  <data name="ButtonPrimaryAction" xml:space="preserve">
+    <value>[vi-VN] Primary Action</value>
+  </data>
+  <data name="ButtonSecondaryAction" xml:space="preserve">
+    <value>[vi-VN] Secondary Action</value>
+  </data>
+  <data name="ButtonSave" xml:space="preserve">
+    <value>[vi-VN] Save</value>
+  </data>
+  <data name="ButtonDelete" xml:space="preserve">
+    <value>[vi-VN] Delete</value>
+  </data>
+  <data name="ButtonMore" xml:space="preserve">
+    <value>[vi-VN] More</value>
+  </data>
+  <data name="ButtonAddComment" xml:space="preserve">
+    <value>[vi-VN] Add Comment</value>
+  </data>
+  <data name="LabelArtinaButtons" xml:space="preserve">
+    <value>[vi-VN] Artina Buttons</value>
+  </data>
+  <data name="LabelCircleImages" xml:space="preserve">
+    <value>[vi-VN] CircleImages</value>
+  </data>
+  <data name="LabelArtinaEntry" xml:space="preserve">
+    <value>[vi-VN] Artina Entry</value>
+  </data>
+  <data name="LabelValidationEntryErrorStyle" xml:space="preserve">
+    <value>[vi-VN] Validation Entry Error Style</value>
+  </data>
+  <data name="StringSomethingWrongHere" xml:space="preserve">
+    <value>[vi-VN] Something wrong here</value>
+  </data>
+  <data name="ValidationErrorEnterRequiredInfo" xml:space="preserve">
+    <value>[vi-VN] Please enter required information</value>
+  </data>
+  <data name="ValidationWarningOops" xml:space="preserve">
+    <value>[vi-VN] Oops! This is just a friendly warning</value>
+  </data>
+  <data name="StringYourAccount" xml:space="preserve">
+    <value>[vi-VN] Your Account</value>
+  </data>
+  <data name="StringConnectYourAccount" xml:space="preserve">
+    <value>[vi-VN] Connect Your Account</value>
+  </data>
+  <data name="ImageCellDetailDaysLoggedIn" xml:space="preserve">
+    <value>[vi-VN] 50 days logged in</value>
+  </data>
+  <data name="EntryCellSampleEmail" xml:space="preserve">
+    <value>[vi-VN] robert.stainford@uxdivers.com</value>
+  </data>
+  <data name="EntryCellPlaceholderPhoneNumber" xml:space="preserve">
+    <value>[vi-VN] Phone number</value>
+  </data>
+  <data name="LabelBrandBlock" xml:space="preserve">
+    <value>[vi-VN] BrandBlock</value>
+  </data>
+  <data name="LabelBadge" xml:space="preserve">
+    <value>[vi-VN] Badge</value>
+  </data>
+  <data name="LabelRoundedLabel" xml:space="preserve">
+    <value>[vi-VN] RoundedLabel</value>
+  </data>
+  <data name="RoundedLabelTextSample" xml:space="preserve">
+    <value>[vi-VN] Grial Rounded Label Sample</value>
+  </data>
+  <data name="LabelAboutUsText" xml:space="preserve">
+    <value>[vi-VN] VS Studio Partner We are a team of passionate UX/UI Designers and Developers with only one mission: help developers make appealing good applications better and 
+faster while we have fun doing what we love.</value>
+  </data>
+  <data name="OurHistoryString" xml:space="preserve">
+    <value>[vi-VN] Our Story</value>
+  </data>
+  <data name="OurHistoryStringLongText" xml:space="preserve">
+    <value>[vi-VN] As partners of the greatest IDE ever, we are commited to deliver high quality products that really help devs to achieve their best.</value>
+  </data>
+  <data name="LabelWeAreATeamOfPassionate" xml:space="preserve">
+    <value>[vi-VN] We are a team of passionate UX/UI Designers and Developers with only one mission: help developers make appealing good applications better and 
+faster while we have fun doing what we love.</value>
+  </data>
+  <data name="LabelOurProducts" xml:space="preserve">
+    <value>[vi-VN] Our Products</value>
+  </data>
+  <data name="LabelOurProductsLongText" xml:space="preserve">
+    <value>[vi-VN] Grial UI Kit and Gorilla Player for Xamarin.Forms
+had been helping developers build better and good looking apps faster since 2015.
+Stay tunned we have more surprises coming soon…</value>
+  </data>
+  <data name="LabelSpecialThanks" xml:space="preserve">
+    <value>[vi-VN] Special thanks</value>
+  </data>
+  <data name="LabelCredits" xml:space="preserve">
+    <value>[vi-VN] Credits</value>
+  </data>
+  <data name="TabItemTextFriends" xml:space="preserve">
+    <value>[vi-VN] Friends</value>
+  </data>
+  <data name="StringHelloClare" xml:space="preserve">
+    <value>[vi-VN] Hello Clare!</value>
+  </data>
+  <data name="StringNoPendingTasksToday" xml:space="preserve">
+    <value>[vi-VN] You have no pending tasks today! :)</value>
+  </data>
+  <data name="ButtonDeleteAccount" xml:space="preserve">
+    <value>[vi-VN] Delete Account</value>
+  </data>
+  <data name="PageTitleEmployeePerformanceDashboard" xml:space="preserve">
+    <value>[vi-VN] Employee Performance Dashboard</value>
+  </data>
+  <data name="PageTitleEmployeeProfileDashboard" xml:space="preserve">
+    <value>[vi-VN] Employee Profile Details</value>
+  </data>
+  <data name="PageTitlePerformanceDashboard" xml:space="preserve">
+    <value>[vi-VN] Performance Dashboard Main</value>
+  </data>
+  <data name="PageTitlePerformanceDashboardMain" xml:space="preserve">
+    <value>[vi-VN] Performance Dashboard</value>
+  </data>
+  <data name="PageTitleShippingDetail" xml:space="preserve">
+    <value>[vi-VN] Shipping Detail</value>
+  </data>
+  <data name="PageTitleTaskBrowser" xml:space="preserve">
+    <value>[vi-VN] Task Browser</value>
+  </data>
+  <data name="PageTitleTaskOverview" xml:space="preserve">
+    <value>[vi-VN] Task Overview</value>
+  </data>
+  <data name="PageTitleEmployeeForm" xml:space="preserve">
+    <value>[vi-VN] Employee Form Page</value>
+  </data>
+  <data name="FlowTitleEcommerce" xml:space="preserve">
+    <value>[vi-VN] Ecommerce Flow</value>
+  </data>
+  <data name="FlowTitleTasks" xml:space="preserve">
+    <value>[vi-VN] Tasks Flow</value>
+  </data>
+  <data name="FlowTitleMovies" xml:space="preserve">
+    <value>[vi-VN] Movies Flow</value>
+  </data>
+  <data name="FlowTitleMessages" xml:space="preserve">
+    <value>[vi-VN] Messages Flow</value>
+  </data>
+  <data name="RichAboutPageDescriptionString" xml:space="preserve">
+    <value>[vi-VN] We started a small design boutique a few years ago. Our passion fueled our success and suddenly we became the most solicited design firm of San Francisco.</value>
+  </data>
+  <data name="RichAboutPageTestimonial1String" xml:space="preserve">
+    <value>[vi-VN] When in need of a great design you know 
+        who to call: this team is amazing!</value>
+  </data>
+  <data name="RichAboutPageTestimonial2String" xml:space="preserve">
+    <value>[vi-VN] Nacho's team did a fantastique work with us!</value>
+  </data>
+  <data name="RichAboutPageMissionString" xml:space="preserve">
+    <value>[vi-VN] Our mission is to create and deliver outstanding designs for our customers. We specialize in food brands, restaurants and fast food chains.</value>
+  </data>
+  <data name="RichAboutPageMission2String" xml:space="preserve">
+    <value>[vi-VN] We are a team of designers that love UIs, graphic design, books, magazines, lorem ipsum points, picas, DIPs and of course NACHOS!.</value>
+  </data>
+  <data name="RichAboutPageFollowUs" xml:space="preserve">
+    <value>[vi-VN] Follow us on:</value>
+  </data>
+  <data name="RichAboutPageEagerToHear" xml:space="preserve">
+    <value>[vi-VN] If you want to get in touch with us or simply stop by and say hello just ping us! We are eager to hear from you!</value>
+  </data>
+  <data name="StringAboutUs" xml:space="preserve">
+    <value>[vi-VN] About Us</value>
+  </data>
+  <data name="StringOurMission" xml:space="preserve">
+    <value>[vi-VN] Our Mission</value>
+  </data>
+  <data name="StringOurTeam" xml:space="preserve">
+    <value>[vi-VN] Our Team</value>
+  </data>
+  <data name="MovieDetails" xml:space="preserve">
+    <value>[vi-VN] Movie Details</value>
+  </data>
+  <data name="TeamMember" xml:space="preserve">
+    <value>[vi-VN] Team Member</value>
+  </data>
+  <data name="TasksPerformance" xml:space="preserve">
+    <value>[vi-VN] Tasks performance</value>
+  </data>
+  <data name="StringTotal" xml:space="preserve">
+    <value>[vi-VN] Total</value>
+  </data>
+  <data name="ShippingAddress" xml:space="preserve">
+    <value>[vi-VN] Shipping Address</value>
+  </data>
+  <data name="PaymentMethod" xml:space="preserve">
+    <value>[vi-VN] Payment Method</value>
+  </data>
+  <data name="BuyIt" xml:space="preserve">
+    <value>[vi-VN] Buy it</value>
+  </data>
+  <data name="StringSubtotal" xml:space="preserve">
+    <value>[vi-VN] Subtotal</value>
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>[vi-VN] Delete Item</value>
+  </data>
+  <data name="OrderWithGift" xml:space="preserve">
+    <value>[vi-VN] This order contains a gift</value>
+  </data>
+  <data name="RelatedProducts" xml:space="preserve">
+    <value>[vi-VN] Related products</value>
+  </data>
+  <data name="SeeMoreComments" xml:space="preserve">
+    <value>[vi-VN] See more comments</value>
+  </data>
+  <data name="SeeLessComments" xml:space="preserve">
+    <value>[vi-VN] See less comments</value>
+  </data>
+  <data name="ProceedToCheckout" xml:space="preserve">
+    <value>[vi-VN] Proceed to checkout</value>
+  </data>
+  <data name="ConfirmOrder" xml:space="preserve">
+    <value>[vi-VN] Confirm order</value>
+  </data>
+  <data name="OrderPlacedNotification" xml:space="preserve">
+    <value>[vi-VN] Your order has been placed successfully.
+Happy shopping!!</value>
+  </data>
+  <data name="StringContacts" xml:space="preserve">
+    <value>[vi-VN] Contacts</value>
+  </data>
+  <data name="StringMessages" xml:space="preserve">
+    <value>[vi-VN] Messages</value>
+  </data>
+  <data name="TypeYourMessage" xml:space="preserve">
+    <value>[vi-VN] Type your message...</value>
+  </data>
+  <data name="StringEdit" xml:space="preserve">
+    <value>[vi-VN] Edit</value>
+  </data>
+  <data name="StringHome" xml:space="preserve">
+    <value>[vi-VN] Home</value>
+  </data>
+  <data name="StringMobile" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="StringMessage" xml:space="preserve">
+    <value>[vi-VN] Message</value>
+  </data>
+  <data name="PageTitleWelcomeStarter" xml:space="preserve">
+    <value>[vi-VN] Welcome Starter</value>
+  </data>
+  <data name="StringRetry" xml:space="preserve">
+    <value>[vi-VN] Retry</value>
+  </data>
+</root>

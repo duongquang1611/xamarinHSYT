@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+             xmlns:local="clr-namespace:ERM_HSYT.Views.CustomForm.Templates"
+             mc:Ignorable="d"
+             Title="DANH SÁCH ĐƠN THUỐC"
+             BackgroundColor="{ DynamicResource BasePageColor }"
+	            grial:Effects.ApplyIOSSafeAreaAsPadding="Left,Right"
+             x:Class="ERM_HSYT.Views.CustomForm.MedicinesView">
+    <ContentPage.Content>
+        <ListView
+		HasUnevenRows="true"
+		IsPullToRefreshEnabled="true"
+		Refreshing="OnRefreshing"
+		ItemTapped="OnItemTapped"
+		CachingStrategy="RecycleElement"
+		ItemsSource="{ Binding MedicineList }">
+            <ListView.RowHeight>
+                <OnIdiom
+				x:TypeArguments="x:Int32"
+				Phone="120"
+				Tablet="160" />
+            </ListView.RowHeight>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <!-- 
+                        MenuItem texts have Mode=OneTime to avoid that property to change due to the following problem:
+                        https://bugzilla.xamarin.com/show_bug.cgi?id=57917
+                    -->
+
+                        <local:MedicinesItemTemplate />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

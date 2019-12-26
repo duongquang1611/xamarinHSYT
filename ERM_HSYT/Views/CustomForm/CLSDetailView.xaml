@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:local="clr-namespace:ERM_HSYT"
+             mc:Ignorable="d"
+             Title="CHI TIẾT CLS"
+             x:Class="ERM_HSYT.Views.CustomForm.CLSDetailView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style
+				x:Key="ComparisonBaseTableStyle"
+				TargetType="Grid">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource AccentColor }" />
+                <Setter
+					Property="Margin"
+					Value="10" />
+                <Setter
+					Property="Padding"
+					Value="1" />
+                <Setter
+					Property="RowSpacing"
+					Value="1" />
+                <Setter
+					Property="ColumnSpacing"
+					Value="1" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableStyle"
+				TargetType="Grid">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource MainWrapperBackgroundColor }" />
+                <Setter
+					Property="Margin"
+					Value="10" />
+                <Setter
+					Property="Padding"
+					Value="1" />
+                <Setter
+					Property="RowSpacing"
+					Value="1" />
+                <Setter
+					Property="ColumnSpacing"
+					Value="1" />
+                <Setter
+					Property="HorizontalOptions"
+					Value="Center" />
+                <Setter
+					Property="WidthRequest"
+					Value="{ 
+						grial:OnOrientationInt 
+							Portrait=-1,
+							Landscape=700
+					}" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableHeaderLabelStyle"
+				TargetType="Label">
+                <Setter
+					Property="TextColor"
+					Value="White" />
+                <Setter
+					Property="FontSize"
+					Value="12" />
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource AccentColor }" />
+
+                <Setter
+					Property="HorizontalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="VerticalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="HeightRequest"
+					Value="40" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableIconTickStyle"
+				TargetType="Label"
+				BasedOn="{ StaticResource FontIcon }">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource BasePageColor }" />
+                <Setter
+					Property="HorizontalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="VerticalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="FontSize"
+					Value="24" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout
+            HeightRequest="900"
+            Padding="20,20,20,20"
+			Spacing="0">
+
+
+            <!-- SOCIAL IMAGE GALLERY GRID -->
+            <Label Text="{Binding Date}" HorizontalOptions="CenterAndExpand" FontSize="20" FontAttributes="Bold" TextColor="Black"/>
+            <grial:GridView                
+								Padding="10,5"
+								ColumnSpacing="10"
+								RowSpacing="10"
+								VerticalOptions="Fill"
+								HeightRequest="200"
+								ColumnCount="3"
+								RowCount="2"
+								ItemsSource="{ Binding DsCLS }">
+
+                <grial:GridView.ItemTemplate>
+                    <DataTemplate>
+                        <local:SocialGalleryImage
+                           Image="{Binding LinkUrls}" Url="{Binding PhieuIn}" />
+
+                    </DataTemplate>
+                </grial:GridView.ItemTemplate>
+            </grial:GridView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:local="clr-namespace:ERM_HSYT"
+	x:Class="ERM_HSYT.HienThiLanKham"
+	Title="{ grial:Translate TitlePhieuKham }" 
+    xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" 
+    xmlns:fftransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+	BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style
+				x:Key="ComparisonBaseTableStyle"
+				TargetType="Grid">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource AccentColor }" />
+                <Setter
+					Property="Margin"
+					Value="10" />
+                <Setter
+					Property="Padding"
+					Value="1" />
+                <Setter
+					Property="RowSpacing"
+					Value="1" />
+                <Setter
+					Property="ColumnSpacing"
+					Value="1" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableStyle"
+				TargetType="Grid">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource MainWrapperBackgroundColor }" />
+                <Setter
+					Property="Margin"
+					Value="10" />
+                <Setter
+					Property="Padding"
+					Value="1" />
+                <Setter
+					Property="RowSpacing"
+					Value="1" />
+                <Setter
+					Property="ColumnSpacing"
+					Value="1" />
+                <Setter
+					Property="HorizontalOptions"
+					Value="Center" />
+                <Setter
+					Property="WidthRequest"
+					Value="{ 
+						grial:OnOrientationInt 
+							Portrait=-1,
+							Landscape=700
+					}" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableHeaderLabelStyle"
+				TargetType="Label">
+                <Setter
+					Property="TextColor"
+					Value="White" />
+                <Setter
+					Property="FontSize"
+					Value="12" />
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource AccentColor }" />
+
+                <Setter
+					Property="HorizontalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="VerticalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="HeightRequest"
+					Value="40" />
+            </Style>
+
+            <Style
+				x:Key="ComparisonTableIconTickStyle"
+				TargetType="Label"
+				BasedOn="{ StaticResource FontIcon }">
+                <Setter
+					Property="BackgroundColor"
+					Value="{ DynamicResource BasePageColor }" />
+                <Setter
+					Property="HorizontalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="VerticalTextAlignment"
+					Value="Center" />
+                <Setter
+					Property="FontSize"
+					Value="24" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout
+				Padding="20,10,20,20"
+				Spacing="18">
+
+                <!--THÔNG TIN KHÁM-->
+                <grial:CardView
+					CornerRadius="5"
+					HeightRequest="150" Padding="5,5,5,5">
+                    <Grid
+						RowSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition
+								Width="*" />
+                            <ColumnDefinition
+								Width="2*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition
+								Height="35" />
+                            <RowDefinition
+								Height="*" />
+                            <RowDefinition
+								Height="*" />
+                            <RowDefinition
+								Height="*" />
+                        </Grid.RowDefinitions>
+
+                        <!-- Header Bg -->
+                        <BoxView
+							Grid.Row="0"
+							Grid.Column="0"
+							Grid.ColumnSpan="3"
+							Style="{ StaticResource MainMenuOrModalBackgroundStyle }"
+							Opacity="1" />
+
+                        <!-- Header Title -->
+                        <Label
+							Grid.Row="0"
+							Grid.Column="0"
+							Grid.ColumnSpan="3"
+							Text="Thông tin khám"
+							TextColor="{ DynamicResource OverImageTextColor }"
+							Style="{ StaticResource LabelBoldStyle }"
+							VerticalOptions="Center"
+							HorizontalOptions="Center" />
+                        <Label
+							Grid.Row="1"
+							Grid.Column="0"
+							Text="Ngày khám:"
+							VerticalOptions="Center"
+							HorizontalOptions="Start" />
+
+                        <Label
+							Grid.Row="1"
+							Grid.Column="1"
+                            Grid.ColumnSpan="2"
+							Text="{Binding NgayKham}"
+							VerticalOptions="Center"
+							HorizontalOptions="Center" />
+
+                        <Label
+							Grid.Row="2"
+							Grid.Column="0"
+							Text="Khoa Phòng:"
+							VerticalOptions="Center"
+							HorizontalOptions="Start" />
+
+                        <Label
+							Grid.Row="2"
+							Grid.Column="1"
+                            Grid.ColumnSpan="2"
+							Text="{Binding TenKhoaKham}"
+							VerticalOptions="Center"
+							HorizontalOptions="Start" />
+
+                        <Label
+							Grid.Row="3"
+							Grid.Column="0"
+							Text="Chẩn đoán:"
+							VerticalOptions="Center"
+							HorizontalOptions="Start" />
+
+                        <Label
+							Grid.Row="3"
+							Grid.Column="1"
+                            Grid.ColumnSpan="2"
+							Text="{Binding ChanDoanBS}"
+							VerticalOptions="Center"
+							HorizontalOptions="Start" />
+                    </Grid>
+                </grial:CardView>
+
+                <!-- KẾT QUẢ KHÁC -->
+                <Grid
+				Grid.Row="1" BackgroundColor="{DynamicResource BasePageColor}">
+                    <StackLayout
+					Padding="0"
+					Spacing="0">
+                        <!-- SOCIAL HEADER -->
+                        <local:SocialHeaderTemplate
+						    Text="{ grial:Translate TitlePhieuKhamChiDinh }"
+						    IconText="{ x:Static local:GrialIconsFont.Image }"
+                            Style="{ StaticResource MainMenuOrModalBackgroundStyle }"/>
+                        <!-- SOCIAL IMAGE GALLERY GRID -->
+                        <grial:GridView
+								Padding="10,5"
+								ColumnSpacing="10"
+								RowSpacing="10"
+								VerticalOptions="Fill"
+								HeightRequest="200"
+								ColumnCount="3"
+								RowCount="2"
+								ItemsSource="{ Binding LstPhieuChiDinh }">
+
+                            <grial:GridView.ItemTemplate>
+                                <DataTemplate>
+                                    <local:SocialGalleryImage
+											Image="{ Binding LinkUrls }" Url="{ Binding PhieuIn }" />
+                                    <!--<Button Clicked="Button_Clicked" BindingContext="{Binding IdPhieuIn }" Text="Xem"></Button>-->
+                                    <!--<WebView x:Name="WebView" VerticalOptions="Fill" Source="{ Binding PhieuIn }" >
+                                    </WebView>-->
+                                </DataTemplate>
+                            </grial:GridView.ItemTemplate>
+                        </grial:GridView>
+                        <local:SocialHeaderTemplate
+						    Text="{ grial:Translate TitlePhieuKhamThuoc }"
+						    IconText="{ x:Static local:GrialIconsFont.Users } "
+                            Style="{ StaticResource MainMenuOrModalBackgroundStyle }"/>
+
+                        <!-- FRIENDS LIST -->
+                        <ListView HeightRequest="220"
+						ItemsSource="{ Binding LstDonThuoc }"
+						RowHeight="60">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <local:FriendItemTemplate />
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </Grid>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<local:WalkthroughBasePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ERM_HSYT.WalkthroughFlatPage" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:local="clr-namespace:ERM_HSYT"
+	NavigationPage.HasNavigationBar="False">
+
+    <local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#D40081"
+		Header="{ grial:Translate WalkthroughHeaderWelcome }"
+		Text="{ grial:Translate WalkthroughTextWelcome }"
+		IconText="{ x:Static local:GrialIconsFont.Globe }"
+		IconColor="#FFF"
+		ButtonText="{ grial:Translate StringNext }"
+		ButtonBackgroundColor="#D5004E" />
+
+    <local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#A33ACA"
+		Header="{ grial:Translate WalkthroughHeaderSaveTime }"
+		Text="{ grial:Translate WalkthroughTextSaveTime }"
+		IconText="{ x:Static local:GrialIconsFont.Lightning }"
+		IconColor="#FFF"
+		ButtonText="{ grial:Translate StringNext }"
+		ButtonBackgroundColor="#9C27B0" />
+
+    <local:WalkthroughFlatStepItemTemplate
+		BackgroundColor="#5E87FF"
+		Header="{ grial:Translate WalkthroughHeaderLearn }"
+		Text="{ grial:Translate WalkthroughTextLearn }"
+		IconText="{ x:Static local:GrialIconsFont.School }"
+		IconColor="#FFF"
+		ButtonText="{ grial:Translate StringFinish }"
+		ButtonBackgroundColor="#536DFE" />
+
+</local:WalkthroughBasePage>

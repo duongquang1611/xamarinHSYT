@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" 
+             xmlns:local="clr-namespace:ERM_HSYT"
+             x:Class="ERM_HSYT.Views.CustomForm.Templates.ReportListTemplate">
+
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <grial:BooleanToObjectConverter
+				x:Key="isStaredIconConverter"
+				x:TypeArguments="x:String"
+				TrueValue="{ x:Static local:GrialIconsFont.StarFill }"
+				FalseValue="{ x:Static local:GrialIconsFont.Star }" />
+
+            <grial:BooleanToObjectConverter
+				x:Key="isReadConverter"
+				x:TypeArguments="FontAttributes">
+                <grial:BooleanToObjectConverter.TrueValue>
+                    <FontAttributes>None</FontAttributes>
+                </grial:BooleanToObjectConverter.TrueValue>
+
+                <grial:BooleanToObjectConverter.FalseValue>
+                    <FontAttributes>Bold</FontAttributes>
+                </grial:BooleanToObjectConverter.FalseValue>
+            </grial:BooleanToObjectConverter>
+
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <StackLayout
+		Spacing="0"
+		Orientation="Horizontal"
+		Padding="10, 5, 10, 5"
+		VerticalOptions="Center">
+
+        <!--<local:CircleCachedImage
+			Source="{ Binding From.Avatar }"
+			Style="{ StaticResource Avatar }"
+			Aspect="AspectFill"
+			HorizontalOptions="Center"
+			VerticalOptions="Start"
+			TranslationX="8"
+			TranslationY="14" />-->
+
+        <StackLayout
+			Padding="10, 0, 10, 0"
+			Spacing="0"
+			Orientation="Horizontal"
+			HorizontalOptions="FillAndExpand">
+
+            <StackLayout
+				HorizontalOptions="FillAndExpand"
+				Spacing="0"
+				Padding="10">
+                <StackLayout
+					Orientation="Horizontal">
+                    <Label
+						Text=""
+						HorizontalOptions="Fill"
+						VerticalOptions="EndAndExpand"
+						TextColor="{ DynamicResource AccentColor }"
+                        Style="{ StaticResource LabelBoldStyle }"
+						FontAttributes="{ Binding IsRead,Converter={ StaticResource isReadConverter } }" />
+
+                    <!--<Label
+						Style="{ StaticResource LabelBoldStyle }"
+						TextColor="{ DynamicResource BaseTextColor }"
+						Text="{ Binding ThreadCount }"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="EndAndExpand" />-->
+
+                    <Label
+						Style=" {StaticResource FontIcon }"
+						Text="{ x:Static local:GrialIconsFont.Paperclip }"
+						HorizontalTextAlignment="End"
+						VerticalOptions="Center"
+                        FontAttributes="{Binding WordStyle}"
+						IsVisible="{ Binding HasAttachment }"
+						TextColor="{ DynamicResource AccentColor }" />
+
+                    <Label
+						Text="{ Binding Ngay }"
+						FontSize="12"
+                        TextColor="{Binding WordColor}"
+                        FontAttributes="{Binding WordStyle}"
+						HorizontalTextAlignment="End"
+						HorizontalOptions="End"
+						VerticalOptions="Center" />
+
+                </StackLayout>
+
+                <Label
+					Text="{ Binding Title }"
+                    TextColor="Black"
+                    FontAttributes="{Binding WordStyle}"
+					VerticalOptions="FillAndExpand"
+					HorizontalOptions="Start" />
+
+                <StackLayout
+					Orientation="Horizontal"
+					Padding="0,8,0,0">
+
+                    <Label
+						Text="{ Binding Content }"
+						LineBreakMode="WordWrap"
+                        TextColor="{Binding WordColor}"
+                        FontAttributes="{Binding WordStyle}"
+						VerticalOptions="FillAndExpand" />
+
+                    <Label
+						HorizontalTextAlignment="End"
+						VerticalOptions="EndAndExpand"
+						FontSize="16"
+						WidthRequest="24"
+						Style="{ StaticResource FontIcon }"
+						Text="{	
+                            Binding IsRead, 
+                            Converter={ StaticResource isStaredIconConverter }
+                        }"
+						TextColor="{ Binding StarColor }" />
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </StackLayout>
+</ContentView>

@@ -1,0 +1,114 @@
+{
+  "Products": {
+    "$id": "products",
+    "List": [
+      {
+        "$id": "product-1",
+        "Name": "قميص فلانيل",
+        "Description": "كلاسيكى من التسعينات ستيل فنلة سكيتبورد.",
+        "Price": "$39.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_0.jpg",
+        "RatingValue": 4.5,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-2",
+        "Name": "جاكيت بومبر",
+        "Description": "أعلى بندقية في كل رجل خزانة. هذا سترة جلدية تجعلك تشعر وكأنك توم كروز دون أن نظرة مجنون. كن صبي جيد جعل أمي فخور.",
+        "Price": "$89.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_1.jpg",
+        "RatingValue": 4,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-3",
+        "Name": "كلاسيكى أسود",
+        "Description": "الحصول على هذا نظرة طبيعية لحظة أن الجميع يريد. مزيج مع البشر، وسوف تجعلك تشعر أقل غرابة. أنت تعرف أنك غير طبيعي.",
+        "Price": "$49.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_2.jpg",
+        "RatingValue": 3.5,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-4",
+        "Name": "قميص ورد",
+        "Description": "لدينا أحدث المحملات السباحة مع تناسب أكثر سهولة من الحرس الطفح الجلدي التقليدي لمزيد من الراحة وبراعة، هو معروف ل تناسب كبير، وظيفة والألوان.",
+        "Price": "$29.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_3.jpg",
+        "RatingValue": 4,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-5",
+        "Name": "قميص اسكوتلاندى",
+        "Description": "ليس فقط قميص مشترك آخر. ترقية الاستئناف الجنس تبدو جيدة. روك و لفة أبدا يحصل القديم. إريك بوردون يرتدي قميص مثل هذا واحد عندما يريد أن تبدو جيدة.",
+        "Price": "$34.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_4.jpg",
+        "RatingValue": 2.5,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-6",
+        "Name": "قميص حرير",
+        "Description": "دعونا نواجه الأمر، هذا القميص لا تبدو جيدة على أي شخص. ولكن كم مرة تشتري شيئا لا تحتاجه؟ شراء هذا واحد يشعر بالسعادة لمدة دقيقة ثم رفض ذلك.",
+        "Price": "$39.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_5.jpg",
+        "RatingValue": 4.5,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-7",
+        "Name": "قميص عملي",
+        "Description": "هل لديك اجتماع؟ هل تريد أن تبدو جيدة موثوقة وثقة؟ هذا هو القميص الذي تحتاجه لتلك الاجتماعات الرهيبة في محاولة للعثور على شخص أن يقدم لك بعض المال.",
+        "Price": "$65.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_6.jpg",
+        "RatingValue": 4,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      },
+      {
+        "$id": "product-8",
+        "Name": "قميص عسكرى",
+        "Description": "الآن هو وقتك. تريد أن تكون ألفا الذكور من شريط المحلية؟ هيا!  الحصول على هذا القميص الآن ويشعر وكأنه رامبو مثير على تاريخك المقبل. تذكر أن الفتيات يحب سوليديرس بيسيفول.",
+        "Price": "$46.90",
+        "Image": "https://s3-us-west-2.amazonaws.com/grial-images/v3.0/product_item_7.jpg",
+        "RatingValue": 5,
+        "RatingMax": 5,
+        "Manufacturer": "UXDIVERS",
+        "UseLargeImage": false
+      }
+    ]
+  },
+  "ProductsCatalogPage.xaml": {
+    "$ref": "products"
+  },
+  "ProductsGridPage.xaml": {
+    "$ref": "products"
+  },
+  "ProductsGridVariantPage.xaml": {
+    "$ref": "products"
+  },
+  "ProductItemViewPage.xaml": {
+    "Product": {
+      "$ref": "product-1"
+    }
+  },
+  "ProductItemFullScreenPage.xaml": {
+    "Product": {
+      "$ref": "product-1"
+    }
+  }
+}

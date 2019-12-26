@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ERM_HSYT.ProductsCatalogPage" xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+	BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }"
+	Title="{ grial:Translate PageTitleProductsCatalog }">
+    <ContentPage.Content>
+        <ListView
+			Style="{ StaticResource ResponsiveLandscapeMarginStyle }"
+			CachingStrategy="RecycleElement"
+			SeparatorVisibility="None"
+			ItemsSource="{ Binding List }"
+			HasUnevenRows="true"
+			ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <local:ProductsCatalogItemTemplate />
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

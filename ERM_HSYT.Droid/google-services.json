@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652965016874",
+    "firebase_url": "https://hsyt-55d19.firebaseio.com",
+    "project_id": "hsyt-55d19",
+    "storage_bucket": "hsyt-55d19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652965016874:android:2cf89b5913efba48",
+        "android_client_info": {
+          "package_name": "com.ermhsyt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652965016874-313i64nvfkplj4e10recr4i2c24eab8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnWsvPIkn1qi5LU9WTYsIu4ySip-6jbpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652965016874-313i64nvfkplj4e10recr4i2c24eab8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

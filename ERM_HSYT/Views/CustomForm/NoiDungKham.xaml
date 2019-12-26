@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ERM_HSYT" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="ERM_HSYT.Views.NoiDungKham">
+    <ContentPage.ToolbarItems></ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <ScrollView>
+                <!--Entry-->
+                <Grid RowSpacing="0"
+                      BackgroundColor="Orange"
+                      Padding="20"
+                      grial:Effects.ApplyIOSSafeAreaAsPadding="Left,Right">
+
+
+                    <StackLayout Spacing="20"
+                        HorizontalOptions="FillAndExpand">
+                        <Label TextColor="Black" FontSize="Medium" Text="Ngày Khám"></Label>
+                        <Label TextColor="Black" FontSize="Medium" Text="Bác Sỹ Khám"></Label>
+                        <Label TextColor="Black" FontSize="Medium" Text="Khoa/Phòng"></Label>
+                        <Label TextColor="Black" FontSize="Medium" Text="ICD(Chuẩn đoán)"></Label>
+                        <Label TextColor="Black" FontSize="Medium" Text="Cận lâm sàng"></Label>
+                        <Button
+                            Grid.Column="0"
+									Text="Xét Nghiệm"
+									HorizontalOptions="Center"
+                                    
+									Style="{ StaticResource DeleteButtonStyle }"></Button>
+                        <Button
+                            Grid.Column="0"
+									Text="Siêu Âm"
+									HorizontalOptions="Center"
+                                    
+									Style="{ StaticResource DeleteButtonStyle }"></Button>
+                        <Button
+                            Grid.Column="0"
+									Text="XQuang"
+									HorizontalOptions ="Center"
+                                    
+									Style="{ StaticResource DeleteButtonStyle }"></Button>
+                        <Grid>
+                            <TableView>
+                                <TableRoot>
+                                    <TableSection></TableSection>
+                                </TableRoot>
+                            </TableView>
+                        </Grid>
+
+                    </StackLayout>
+                </Grid>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

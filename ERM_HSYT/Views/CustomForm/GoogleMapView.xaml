@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             mc:Ignorable="d"
+             x:Class="ERM_HSYT.Views.CustomForm.GoogleMapView"
+             NavigationPage.HasNavigationBar="True"
+             Title="BẢN ĐỒ"
+             >
+    <ContentPage.Content>
+        <!--<StackLayout>
+            <Button Text="XEM BẢN ĐỒ"
+                BackgroundColor="Black"
+                WidthRequest="200"
+                TextColor="White"
+                Margin="20"
+                Clicked="OnClickedGGMap"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="100" />
+                
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" VerticalOptions="StartAndExpand" HeightRequest="600">
+                <maps:Map HorizontalOptions="FillAndExpand"
+                  x:Name="MyMap"
+                  MapType="Street" />
+                
+            </StackLayout>
+            <StackLayout Grid.Row="1" VerticalOptions="Center" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="0,0,0,25">
+                <Button Text="XEM TRÊN GOOGLE MAP" FontSize="20" HeightRequest="100" Clicked="OnClickedGGMap" BackgroundColor="White"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

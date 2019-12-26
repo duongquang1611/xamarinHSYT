@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial" xmlns:local="clr-namespace:ERM_HSYT"
+	x:Class="ERM_HSYT.NavigationCardsListPage"
+	Title="{ grial:Translate DANH SÁCH LẦN KHÁM }"
+	BackgroundColor="{ DynamicResource MainWrapperBackgroundColor }">
+    <ListView
+		ItemsSource="{ Binding Items }"
+		SeparatorVisibility="None"
+		SeparatorColor="Transparent"
+		HasUnevenRows="false"
+		SelectedItem="{ Binding SelectedItem, Mode=TwoWay }"
+		CachingStrategy="RecycleElement"
+		Margin="0,5">
+        <ListView.RowHeight>
+            <OnIdiom
+				x:TypeArguments="x:Int32"
+				Phone="100"
+				Tablet="120" />
+        </ListView.RowHeight>
+            
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <local:NavigationCardsListItemTemplate />
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+    
+</ContentPage>

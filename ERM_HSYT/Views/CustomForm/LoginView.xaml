@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ERM_HSYT"
+             xmlns:forms="clr-namespace:PanCardView;assembly=PanCardView"
+             xmlns:grial="clr-namespace:UXDivers.Grial;assembly=UXDivers.Grial"
+             xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             NavigationPage.HasNavigationBar="False"
+             ios:Page.UseSafeArea="True"
+             x:Class="ERM_HSYT.Views.CustomForm.LoginView">
+    <ContentPage.Content>
+        <ScrollView
+                x:Name="scrollView"
+				grial:Effects.IgnoreIOSSafeAreaOnScrollView="Left,Right,Top"
+				VerticalOptions="FillAndExpand"
+				Padding="{ StaticResource MainWrapperPadding }">
+            <!-- MAIN CONTAINER -->
+
+            <Grid
+                
+					ColumnSpacing="0"
+					RowSpacing="0"
+					Style="{ StaticResource SimpleLoginFormsContentStyle }"
+					HorizontalOptions="Fill"
+					VerticalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition
+							Height="Auto" />
+                    <RowDefinition
+							Height="*" />
+
+
+                </Grid.RowDefinitions>
+
+
+                <forms:CubeView x:Name="MainCarousel"
+                                        Grid.Row="0" 
+                                
+                                        ItemsSource="{Binding Data}"
+                                        SelectedIndex="{Binding ImageIndex}"
+                                        >
+                    <forms:CubeView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout 
+                                                     Grid.Row="0" 
+                                                     VerticalOptions="CenterAndExpand">
+                                    <!--<Label HorizontalTextAlignment="Center" 
+                                                   Text="{Binding HospitalName}"
+                                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Start"
+                                                   TextColor="{ DynamicResource ComplementColor }"
+                                                   FontSize="Large"
+                                                   FontAttributes="Bold"/>
+                                    <Label></Label>-->
+                                    <Image
+                                                Source="{Binding HospitalImageUrl}"
+                                                HeightRequest="220"
+                                                WidthRequest="220"
+                                                HorizontalOptions="Center"
+                                                Margin="0,0,0,0"/>
+                                    <!--<Label></Label>-->
+                                    <!--<Label
+                                                HorizontalTextAlignment="Center" 
+                                                Text="SỔ Y BẠ ĐIỆN TỬ"
+                                                HorizontalOptions="Center"
+                                                VerticalOptions="End"
+                                                TextColor="{ DynamicResource ComplementColor }"
+                                                FontSize="Medium"
+                                                FontAttributes="Bold"/>-->
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </forms:CubeView.ItemTemplate>
+                    <controls:LeftArrowControl Scale="0.5" BackgroundColor="LightGray"/>
+                    <controls:RightArrowControl Scale="0.5" BackgroundColor="LightGray"/>
+                </forms:CubeView>
+                <Grid
+						    Grid.Row="1"
+						    RowSpacing="20"
+						    ColumnSpacing="15"
+						    Padding="0,0,0,0"
+						    VerticalOptions="Center"
+						    Style="{ StaticResource ResponsiveLandscapeMarginStyle }">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    
+                        <Label
+							        Grid.Column="0"
+							        Grid.Row="0"
+							        
+                                    FontSize="30"
+							        Text="{ x:Static local:GrialIconsFont.Phone }"
+							        Style="{ StaticResource FontIcon }"
+							        HorizontalTextAlignment="Center"
+							        TextColor="{ DynamicResource ComplementColor }"
+							        VerticalOptions="Center"
+							        HorizontalOptions="Center" />
+
+                        <!--EMAIL ENTRY-->
+                        <Entry 
+                                    x:Name="entryUsername"
+							        Grid.Column="1"
+							        Grid.Row="0"
+                                    HeightRequest="50"
+                                    FontSize="20"
+                            FontFamily="TIMES.TTF"
+                            
+                                    Text="{Binding Username}"
+							        VerticalOptions="Center"
+							        HorizontalOptions="FillAndExpand"
+                            
+                                    
+							        Placeholder="{ grial:Translate StringMobile }" />
+
+                        <!-- ICON -->
+                        <Label
+							        Grid.Column="0"
+							        Grid.Row="1"
+							        FontSize="30"
+							        Text="{ x:Static local:GrialIconsFont.Lock }"
+							        Style="{ StaticResource FontIcon }"
+							        HorizontalTextAlignment="Center"
+							        TextColor="{ DynamicResource ComplementColor }"
+							        VerticalOptions="Center"
+							        HorizontalOptions="Center" />
+
+                        <!-- PASSWORD ENTRY -->
+                        <Entry 
+                                x:Name="entryPassword"
+							    Grid.Column="1"
+							    Grid.Row="1"
+                                HeightRequest="50"
+                            FontFamily="TIMES.TTF"
+                                FontSize="20"
+                                Text="{Binding Password}"
+                                VerticalOptions="Center"
+							    HorizontalOptions="FillAndExpand"
+							    Placeholder="{ grial:Translate StringPassword }"
+							    IsPassword="True" />
+                    
+                    
+                        <StackLayout
+                                Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                Grid.Row="2"    
+                                Orientation="Horizontal"
+								HorizontalOptions="StartAndExpand">
+                            <Switch IsToggled="{Binding RememberMe}" />
+                            <Label
+									Margin="10,0"
+									Text="Ghi nhớ?"
+                                    FontAttributes="Bold"
+									HorizontalOptions="Start"
+                                    VerticalOptions="Center" />
+                        </StackLayout>
+                    
+                    
+
+                        <Button
+                                Grid.Column="0"
+                                Grid.ColumnSpan="2"
+                                Grid.Row="3" 
+							    Style="{ StaticResource PrimaryActionButtonStyle }"
+                        
+							    VerticalOptions="End"
+							    Text="{ grial:Translate StringLogin }"
+							    WidthRequest="{ 
+                                    grial:OnOrientationDouble
+                                        LandscapePhone=200,
+                                        LandscapeTablet=400 
+                                }"
+							    HorizontalOptions="{ 
+                                    grial:OnOrientationLayoutOptions
+                                        PortraitPhone=Fill,
+                                        LandscapePhone=Center,
+                                        PortraitTablet=Fill,
+                                        LandscapeTablet=Center 
+                                }"
+                                Command="{Binding LoginClickCommand}"/>
+                    
+                </Grid>
+
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
